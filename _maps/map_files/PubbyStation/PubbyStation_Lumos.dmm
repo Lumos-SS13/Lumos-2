@@ -11732,8 +11732,19 @@
 	name = "Detective's Office";
 	req_access_txt = "4"
 	},
+<<<<<<< Updated upstream
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plasteel/dark,
+=======
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/effect/turf_decal/tile/red/fulltile,
+/turf/open/floor/plasteel,
+>>>>>>> Stashed changes
 /area/security/detectives_office)
 "aBg" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
@@ -28502,6 +28513,7 @@
 /obj/structure/sign/poster/official/random{
 	pixel_x = -32
 	},
+<<<<<<< Updated upstream
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
 	},
@@ -28510,6 +28522,13 @@
 	},
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
+=======
+/obj/effect/turf_decal/trimline/blue/filled/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/red/filled/corner{
+	dir = 4
+>>>>>>> Stashed changes
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/central)
@@ -29918,6 +29937,7 @@
 	name = "old sink";
 	pixel_y = 28
 	},
+<<<<<<< Updated upstream
 /obj/item/stack/cable_coil/orange,
 /obj/item/storage/toolbox/mechanical,
 /obj/effect/turf_decal/tile/purple{
@@ -29925,6 +29945,10 @@
 	},
 /obj/effect/turf_decal/tile/purple{
 	dir = 4
+=======
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 9
+>>>>>>> Stashed changes
 	},
 /turf/open/floor/plasteel/white,
 /area/science/lab)
@@ -31719,10 +31743,22 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 10
 	},
+<<<<<<< Updated upstream
+=======
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 9
+	},
+>>>>>>> Stashed changes
 /turf/open/floor/plasteel/white,
 /area/medical/chemistry)
 "bvs" = (
 /obj/structure/disposalpipe/segment,
+<<<<<<< Updated upstream
+=======
+/obj/effect/turf_decal/trimline/yellow/filled/corner{
+	dir = 1
+	},
+>>>>>>> Stashed changes
 /turf/open/floor/plasteel/white,
 /area/medical/chemistry)
 "bvt" = (
@@ -32322,6 +32358,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/central)
 "bwN" = (
@@ -32330,6 +32367,8 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/blue,
+=======
+>>>>>>> Stashed changes
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/central)
 "bwO" = (
@@ -32364,16 +32403,23 @@
 	dir = 8;
 	pixel_x = -12
 	},
+<<<<<<< Updated upstream
 /obj/effect/turf_decal/tile/yellow{
+=======
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+>>>>>>> Stashed changes
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/chemistry)
 "bwT" = (
 /obj/structure/disposalpipe/segment,
+<<<<<<< Updated upstream
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 8
 	},
+=======
+>>>>>>> Stashed changes
 /turf/open/floor/plasteel/white,
 /area/medical/chemistry)
 "bwU" = (
@@ -32400,18 +32446,31 @@
 /turf/open/floor/plasteel/white,
 /area/medical/chemistry)
 "bxa" = (
-/obj/structure/table/glass,
-/obj/item/book/manual/wiki/research_and_development,
-/obj/item/disk/tech_disk,
-/obj/item/disk/design_disk,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/science/lab)
 "bxc" = (
+<<<<<<< Updated upstream
 /obj/structure/disposalpipe/segment{
 	dir = 6
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 6
+=======
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 8
+>>>>>>> Stashed changes
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/white,
 /area/science/lab)
@@ -32419,15 +32478,18 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
 /obj/structure/disposalpipe/sorting/mail/flip{
 	dir = 8;
 	sortType = 13
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
 	},
 /turf/open/floor/plasteel/white,
 /area/science/lab)
@@ -32492,6 +32554,9 @@
 	req_one_access_txt = "7;29;30"
 	},
 /obj/effect/turf_decal/delivery,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
 /turf/open/floor/plasteel,
 /area/science/lab)
 "bxi" = (
@@ -33111,12 +33176,17 @@
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
+<<<<<<< Updated upstream
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/item/radio/headset/headset_med,
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/yellow{
+=======
+/obj/item/kirbyplants/random,
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+>>>>>>> Stashed changes
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
@@ -33126,6 +33196,10 @@
 	icon_state = "2-8"
 	},
 /obj/structure/disposalpipe/segment,
+<<<<<<< Updated upstream
+=======
+/obj/effect/landmark/start/chemist,
+>>>>>>> Stashed changes
 /turf/open/floor/plasteel/white,
 /area/medical/chemistry)
 "byz" = (
@@ -33161,6 +33235,7 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/aft)
 "byD" = (
+<<<<<<< Updated upstream
 /obj/machinery/door/airlock/research{
 	name = "R&D Lab";
 	req_one_access_txt = "7;29;30"
@@ -33186,20 +33261,46 @@
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
+=======
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "research_shutters_2";
+	name = "research shutters"
+	},
+/obj/structure/plasticflaps/opaque,
+/obj/effect/turf_decal/tile/purple/fulltile,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel,
+/area/science/lab)
+"byE" = (
+/obj/machinery/navbeacon{
+	codes_txt = "delivery;dir=4";
+	dir = 8;
+	freq = 1400;
+	location = "Research Division"
+>>>>>>> Stashed changes
+	},
+/obj/effect/turf_decal/delivery,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+<<<<<<< Updated upstream
+/turf/open/floor/plasteel/white,
+=======
+/obj/machinery/door/window/eastright{
+	base_state = "left";
+	icon_state = "left";
+	name = "Research Division Delivery";
+	req_access_txt = "47"
 	},
 /turf/open/floor/plasteel/dark,
-/area/science/lab)
-"byF" = (
-/obj/structure/chair/office/light{
-	dir = 8
-	},
-/turf/open/floor/plasteel/white,
+>>>>>>> Stashed changes
 /area/science/lab)
 "byG" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /obj/structure/disposalpipe/segment,
+<<<<<<< Updated upstream
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
@@ -33207,16 +33308,26 @@
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
 	},
+=======
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
+/obj/effect/turf_decal/trimline/purple/filled/line,
+>>>>>>> Stashed changes
 /turf/open/floor/plasteel/white,
 /area/science/lab)
 "byH" = (
 /obj/structure/table,
-/obj/item/multitool,
 /obj/item/clothing/glasses/science,
-/obj/item/clothing/glasses/science,
+<<<<<<< Updated upstream
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
+=======
+/obj/effect/turf_decal/trimline/purple/filled/line,
+/obj/item/clothing/glasses/science{
+	pixel_x = 2;
+	pixel_y = 4
+>>>>>>> Stashed changes
 	},
 /turf/open/floor/plasteel/white,
 /area/science/lab)
@@ -33225,10 +33336,17 @@
 /obj/machinery/cell_charger,
 /obj/item/stock_parts/cell/high/plus,
 /obj/item/stock_parts/cell/high/plus,
+<<<<<<< Updated upstream
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
+=======
+/obj/effect/turf_decal/trimline/purple/filled/line,
+/obj/item/reagent_containers/glass/bucket{
+	pixel_x = -16;
+	pixel_y = 10
+>>>>>>> Stashed changes
 	},
 /turf/open/floor/plasteel/white,
 /area/science/lab)
@@ -33315,8 +33433,16 @@
 /turf/open/floor/plasteel/dark,
 /area/hallway/primary/aft)
 "byP" = (
+<<<<<<< Updated upstream
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
+=======
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/structure/cable{
+	icon_state = "1-2"
+>>>>>>> Stashed changes
 	},
 /turf/closed/wall/r_wall,
 /area/science/explab)
@@ -33785,6 +33911,7 @@
 /obj/machinery/sleeper{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
@@ -33800,6 +33927,14 @@
 	},
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
+=======
+/obj/effect/turf_decal/tile/blue/fulltile,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/extinguisher_cabinet{
+	pixel_x = -24
+>>>>>>> Stashed changes
 	},
 /turf/open/floor/plasteel,
 /area/medical/genetics/cloning)
@@ -33969,6 +34104,17 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
 	},
+<<<<<<< Updated upstream
+=======
+/obj/structure/rack,
+/obj/item/stack/packageWrap,
+/obj/item/hand_labeler,
+/obj/item/clothing/glasses/science,
+/obj/item/clothing/glasses/science,
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 8
+	},
+>>>>>>> Stashed changes
 /turf/open/floor/plasteel/white,
 /area/medical/chemistry)
 "bAf" = (
@@ -33976,6 +34122,7 @@
 	icon_state = "1-2"
 	},
 /obj/structure/disposalpipe/segment,
+<<<<<<< Updated upstream
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 10
 	},
@@ -33989,6 +34136,13 @@
 /obj/structure/table/glass,
 /obj/machinery/light,
 /obj/machinery/airalarm{
+=======
+/turf/open/floor/plasteel/white,
+/area/medical/chemistry)
+"bAg" = (
+/obj/machinery/vending/wardrobe/chem_wardrobe,
+/obj/machinery/firealarm{
+>>>>>>> Stashed changes
 	dir = 1;
 	pixel_y = -22
 	},
@@ -34004,6 +34158,9 @@
 /obj/effect/turf_decal/tile/yellow,
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 4
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/chemistry)
@@ -34998,6 +35155,7 @@
 /area/medical/virology)
 "bCi" = (
 /obj/structure/table/glass,
+<<<<<<< Updated upstream
 /obj/item/stack/medical/gauze,
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -24
@@ -35012,6 +35170,16 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
+=======
+/obj/effect/turf_decal/tile/blue/fulltile,
+/obj/item/soap/nanotrasen{
+	pixel_y = 6
+	},
+/obj/item/gun/syringe,
+/obj/structure/sign/poster/official/random{
+	pixel_x = -32
+	},
+>>>>>>> Stashed changes
 /turf/open/floor/plasteel,
 /area/medical/genetics/cloning)
 "bCj" = (
@@ -35647,10 +35815,14 @@
 	dir = 4;
 	pixel_x = -22
 	},
+<<<<<<< Updated upstream
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/blue{
+=======
+/obj/effect/turf_decal/trimline/blue/filled/line{
+>>>>>>> Stashed changes
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
@@ -36904,6 +37076,7 @@
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/central)
 "bFS" = (
+<<<<<<< Updated upstream
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 4
 	},
@@ -36916,9 +37089,18 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
+=======
+/obj/structure/disposalpipe/segment{
+	dir = 6
 	},
-/turf/open/floor/plasteel/white,
-/area/medical/medbay/central)
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/structure/cable{
+	icon_state = "2-4"
+>>>>>>> Stashed changes
+	},
+/turf/open/floor/plasteel,
+/area/hallway/primary/aft)
 "bFU" = (
 /turf/closed/wall,
 /area/medical/surgery)
@@ -39092,6 +39274,7 @@
 /obj/machinery/light_switch{
 	pixel_y = 25
 	},
+<<<<<<< Updated upstream
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
@@ -39100,6 +39283,22 @@
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
+=======
+/turf/open/floor/plasteel/freezer,
+/area/medical/medbay/central)
+"bKw" = (
+/obj/machinery/camera{
+	c_tag = "Patient Room"
+	},
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/plasteel/freezer,
+/area/medical/medbay/central)
+"bKx" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 6
+>>>>>>> Stashed changes
 	},
 /obj/machinery/computer/crew,
 /turf/open/floor/plasteel/dark,
@@ -41170,8 +41369,14 @@
 /turf/open/floor/plating,
 /area/maintenance/department/engine)
 "bPu" = (
+<<<<<<< Updated upstream
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden{
 	dir = 4
+=======
+/obj/machinery/atmospherics/components/unary/outlet_injector/on/layer3{
+	dir = 4;
+	volume_rate = 200
+>>>>>>> Stashed changes
 	},
 /turf/closed/wall,
 /area/maintenance/department/engine)
@@ -50296,6 +50501,7 @@
 /turf/open/floor/plating,
 /area/maintenance/department/engine)
 "crA" = (
+<<<<<<< Updated upstream
 /obj/structure/sign/warning/vacuum/external{
 	pixel_y = 32
 	},
@@ -50304,6 +50510,19 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/engine)
+=======
+/obj/effect/turf_decal/tile/purple/half{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/hallway/primary/aft)
+>>>>>>> Stashed changes
 "crB" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
@@ -52755,6 +52974,10 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 1
 	},
+/obj/effect/landmark/start/scientist,
+/obj/structure/chair/office/light{
+	dir = 8
+	},
 /turf/open/floor/plasteel/white,
 /area/science/lab)
 "cCB" = (
@@ -52996,21 +53219,54 @@
 /turf/open/floor/plasteel/white,
 /area/medical/genetics/cloning)
 "cSK" = (
-/obj/effect/turf_decal/delivery,
-/obj/machinery/door/window/eastright{
-	base_state = "left";
-	icon_state = "left";
-	name = "Research Division Delivery";
+/obj/machinery/button/door{
+	id = "research_shutters_2";
+	name = "Shutters Control Button";
+	pixel_x = -24;
 	req_access_txt = "47"
 	},
-/obj/machinery/navbeacon{
-	codes_txt = "delivery;dir=4";
-	dir = 8;
-	freq = 1400;
-	location = "Research Division"
+/obj/structure/table/glass,
+/obj/item/book/manual/wiki/research_and_development{
+	pixel_x = -6;
+	pixel_y = -10
 	},
+/obj/item/storage/toolbox/mechanical{
+	pixel_y = 18
+	},
+<<<<<<< Updated upstream
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
+=======
+/obj/item/disk/tech_disk{
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/obj/item/disk/design_disk,
+/turf/open/floor/plasteel/dark,
+/area/science/lab)
+"cUr" = (
+/obj/effect/landmark/start/cargo_technician,
+/turf/open/floor/plasteel,
+/area/cargo/storage)
+"cUM" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/engineering/main)
+"cVn" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer1,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/trimline/red/filled/line,
+/turf/open/floor/plasteel,
+/area/security/prison)
+"cXl" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+>>>>>>> Stashed changes
 	},
 /turf/open/floor/plasteel/dark,
 /area/science/lab)
@@ -53310,6 +53566,13 @@
 	pixel_x = 2;
 	pixel_y = -6
 	},
+<<<<<<< Updated upstream
+=======
+/obj/item/stack/cable_coil/orange{
+	pixel_x = 8;
+	pixel_y = 20
+	},
+>>>>>>> Stashed changes
 /turf/open/floor/plasteel/dark,
 /area/science/lab)
 "duQ" = (
@@ -53426,8 +53689,16 @@
 /area/maintenance/department/engine)
 "dJx" = (
 /obj/structure/lattice/catwalk,
+<<<<<<< Updated upstream
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple,
 /turf/open/space/basic,
+=======
+/obj/machinery/atmospherics/components/unary/outlet_injector/on/layer3{
+	dir = 8;
+	volume_rate = 200
+	},
+/turf/open/space,
+>>>>>>> Stashed changes
 /area/space/nearstation)
 "dKs" = (
 /obj/structure/disposalpipe/segment,
@@ -53655,8 +53926,23 @@
 /obj/structure/sign/poster/contraband/random{
 	pixel_y = 32
 	},
+<<<<<<< Updated upstream
 /turf/open/floor/carpet,
 /area/maintenance/department/crew_quarters/dorms)
+=======
+/obj/machinery/light/small,
+/turf/open/floor/plating,
+/area/security/prison)
+"epU" = (
+/obj/structure/closet/secure_closet/chemical,
+/obj/item/book/manual/wiki/chemistry,
+/obj/item/radio/headset/headset_med,
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
+/area/medical/chemistry)
+>>>>>>> Stashed changes
 "epV" = (
 /obj/structure/chair,
 /obj/effect/turf_decal/stripes/corner,
@@ -54743,27 +55029,17 @@
 /turf/open/floor/plasteel/dark,
 /area/science/explab)
 "gFo" = (
-/obj/structure/window/reinforced,
 /obj/structure/table/glass,
 /obj/item/radio/intercom{
 	name = "Station Intercom (General)";
 	pixel_x = -28;
 	pixel_y = 3
 	},
-/obj/machinery/button/door{
-	id = "research_shutters_2";
-	name = "Shutters Control Button";
-	pixel_x = -28;
-	pixel_y = -7;
-	req_access_txt = "47"
-	},
 /obj/item/stack/sheet/glass/fifty{
 	pixel_x = 3;
 	pixel_y = 3
 	},
 /obj/item/stack/sheet/metal/fifty,
-/obj/item/wrench,
-/obj/item/crowbar,
 /obj/item/clothing/glasses/welding,
 /turf/open/floor/plasteel/dark,
 /area/science/lab)
@@ -55261,6 +55537,21 @@
 /obj/machinery/power/rad_collector/anchored,
 /turf/open/floor/engine,
 /area/engineering/supermatter)
+<<<<<<< Updated upstream
+=======
+"hMy" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/turf/open/floor/carpet,
+/area/service/library)
+"hNh" = (
+/obj/structure/bed/roller,
+/obj/machinery/iv_drip,
+/obj/item/stack/medical/gauze,
+/turf/open/floor/plasteel/white,
+/area/medical/medbay/central)
+>>>>>>> Stashed changes
 "hOx" = (
 /obj/structure/cable{
 	icon_state = "2-4"
@@ -55518,6 +55809,7 @@
 /turf/open/floor/plating,
 /area/maintenance/department/science)
 "imE" = (
+<<<<<<< Updated upstream
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/tile/purple{
 	dir = 4
@@ -55527,6 +55819,30 @@
 	},
 /obj/structure/cable{
 	icon_state = "2-4"
+=======
+/obj/effect/turf_decal/tile/purple/fulltile,
+/obj/effect/turf_decal/delivery,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/door/airlock/research{
+	name = "R&D Lab";
+	req_one_access_txt = "7;29;30"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/science/lab)
+"inl" = (
+/obj/structure/rack,
+/obj/item/stack/sheet/glass/fifty{
+	pixel_x = 3;
+	pixel_y = 3
+>>>>>>> Stashed changes
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/aft)
@@ -56564,8 +56880,52 @@
 /obj/structure/chair{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
+=======
+/obj/effect/turf_decal/tile/neutral/fulltile,
+/turf/open/floor/plasteel/dark,
+/area/hallway/secondary/exit/departure_lounge)
+"kAc" = (
+/obj/effect/turf_decal/bot_red,
+/obj/machinery/holopad,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/cyan/hidden/layer1{
+	dir = 4
+	},
+/mob/living/simple_animal/chicken{
+	desc = "A dumb hen, kept in the Brig to boost Prisoner morale... For more mushroom wine.";
+	name = "Broiler"
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/security/prison)
+"kAH" = (
+/obj/effect/turf_decal/tile/red{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/hallway/primary/central)
+"kBc" = (
+/obj/structure/lattice/catwalk,
+/obj/machinery/atmospherics/components/unary/outlet_injector/on/layer3{
+	dir = 8;
+	volume_rate = 200
+	},
+/turf/open/space/basic,
+/area/security/prison)
+"kBp" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+>>>>>>> Stashed changes
 	},
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -56706,8 +57066,19 @@
 /obj/machinery/door/airlock/maintenance/abandoned{
 	name = "Firing Range Target"
 	},
+<<<<<<< Updated upstream
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
+=======
+/obj/item/bedsheet/medical{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
+/area/medical/medbay/central)
+"kKv" = (
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+>>>>>>> Stashed changes
 	},
 /area/maintenance/department/security/brig)
 "kKI" = (
@@ -56792,6 +57163,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
@@ -56803,6 +57175,27 @@
 	},
 /turf/open/floor/plating,
 /area/commons/storage/emergency/port)
+=======
+/turf/open/floor/plasteel,
+/area/engineering/main)
+"kSO" = (
+/obj/structure/table,
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/machinery/camera{
+	c_tag = "Paramedic Dispatch";
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue/fulltile,
+/obj/item/storage/firstaid/regular{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/storage/toolbox/emergency,
+/turf/open/floor/plasteel/white,
+/area/medical/paramedic)
+>>>>>>> Stashed changes
 "kTj" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/effect/turf_decal/stripes/line{
@@ -57334,7 +57727,13 @@
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
 	},
+<<<<<<< Updated upstream
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
+=======
+/obj/item/multitool{
+	pixel_x = -12
+	},
+>>>>>>> Stashed changes
 /turf/open/floor/plasteel/white,
 /area/science/lab)
 "meF" = (
@@ -57663,6 +58062,43 @@
 /obj/machinery/space_heater,
 /turf/open/floor/plating,
 /area/maintenance/department/science)
+<<<<<<< Updated upstream
+=======
+"mSf" = (
+/obj/effect/turf_decal/trimline/blue/filled/corner,
+/obj/effect/turf_decal/trimline/red/filled/corner{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
+/area/medical/medbay/central)
+"mSz" = (
+/obj/structure/closet/secure_closet/paramedic,
+/obj/effect/turf_decal/tile/blue/fulltile,
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = 24
+	},
+/turf/open/floor/plasteel/white,
+/area/medical/paramedic)
+"mSY" = (
+/turf/open/floor/plasteel/white{
+	heat_capacity = 1e+006
+	},
+/area/service/chapel/dock)
+"mTk" = (
+/obj/machinery/light,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer1{
+	dir = 1
+	},
+/turf/open/floor/plasteel/checker,
+/area/security/prison)
+"mTs" = (
+/obj/effect/spawner/lootdrop/maintenance,
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/maintenance/department/security/brig)
+>>>>>>> Stashed changes
 "mTS" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -58039,6 +58475,7 @@
 /turf/open/floor/plasteel,
 /area/science/xenobiology)
 "nIU" = (
+<<<<<<< Updated upstream
 /obj/structure/disposalpipe/segment{
 	dir = 9
 	},
@@ -58051,6 +58488,10 @@
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
+=======
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 10
+>>>>>>> Stashed changes
 	},
 /turf/open/floor/plasteel/white,
 /area/science/lab)
@@ -58360,8 +58801,14 @@
 /turf/open/floor/plasteel,
 /area/engineering/main)
 "ouv" = (
+<<<<<<< Updated upstream
 /obj/machinery/atmospherics/components/unary/outlet_injector/on{
 	dir = 4
+=======
+/obj/machinery/atmospherics/components/unary/outlet_injector/on/layer3{
+	dir = 8;
+	volume_rate = 200
+>>>>>>> Stashed changes
 	},
 /turf/open/floor/plating/airless,
 /area/space/nearstation)
@@ -58500,11 +58947,24 @@
 /turf/open/floor/plasteel,
 /area/science/xenobiology)
 "oFf" = (
+<<<<<<< Updated upstream
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /obj/machinery/light/small{
 	dir = 1
+=======
+/obj/structure/table/reinforced,
+/obj/machinery/door/poddoor/shutters{
+	id = "visit"
+	},
+/obj/structure/window/reinforced,
+/turf/open/floor/plasteel,
+/area/security/prison)
+"oFl" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 8
+>>>>>>> Stashed changes
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/security/brig)
@@ -60831,6 +61291,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 4
 	},
+<<<<<<< Updated upstream
 /turf/open/floor/plasteel/dark,
 /area/engineering/main)
 "tJr" = (
@@ -60845,6 +61306,9 @@
 	},
 /turf/open/floor/plasteel,
 /area/science/lab)
+=======
+/area/hallway/secondary/entry)
+>>>>>>> Stashed changes
 "tLP" = (
 /obj/machinery/status_display/supply,
 /turf/closed/wall,
@@ -61333,11 +61797,23 @@
 	icon_state = "0-2";
 	pixel_y = 1
 	},
+<<<<<<< Updated upstream
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/chapel/monastery)
+=======
+/obj/item/bedsheet/medical{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
+/area/medical/medbay/central)
+"uTn" = (
+/obj/machinery/light/small,
+/turf/open/floor/plasteel/white,
+/area/medical/medbay/central)
+>>>>>>> Stashed changes
 "uUQ" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Engineering Maintenance";
@@ -61918,9 +62394,17 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/science/xenobiology)
+<<<<<<< Updated upstream
 "wlK" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
+=======
+"wmD" = (
+/obj/structure/lattice/catwalk,
+/obj/machinery/atmospherics/components/unary/outlet_injector/on/layer3{
+	dir = 4;
+	volume_rate = 200
+>>>>>>> Stashed changes
 	},
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/tile/purple{
@@ -62369,6 +62853,17 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/wood,
 /area/service/lawoffice)
+<<<<<<< Updated upstream
+=======
+"xeN" = (
+/obj/effect/turf_decal/trimline/yellow/filled/corner,
+/turf/open/floor/plasteel/white,
+/area/medical/chemistry)
+"xeT" = (
+/obj/effect/turf_decal/tile/green,
+/turf/open/floor/plasteel,
+/area/hallway/primary/central)
+>>>>>>> Stashed changes
 "xgh" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -62727,7 +63222,11 @@
 /obj/machinery/door/airlock{
 	name = "Port Emergency Storage"
 	},
+<<<<<<< Updated upstream
 /obj/effect/mapping_helpers/airlock/unres,
+=======
+/obj/structure/disposalpipe/segment,
+>>>>>>> Stashed changes
 /turf/open/floor/plasteel/freezer,
 /area/commons/storage/emergency/port)
 "xSd" = (
@@ -62740,6 +63239,7 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/service/chapel/office)
+<<<<<<< Updated upstream
 "xSZ" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/effect/turf_decal/tile/neutral{
@@ -62751,6 +63251,11 @@
 /obj/effect/spawner/lootdrop/maintenance{
 	lootcount = 2;
 	name = "2maintenance loot spawner"
+=======
+"xVa" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+	dir = 1
+>>>>>>> Stashed changes
 	},
 /obj/structure/rack,
 /turf/open/floor/plating{
@@ -90992,9 +91497,15 @@ bBe
 bCn
 bDs
 bEA
+<<<<<<< Updated upstream
 bFS
 bGZ
 bCn
+=======
+bzU
+suV
+bLJ
+>>>>>>> Stashed changes
 bJo
 frU
 bLJ
@@ -91247,7 +91758,11 @@ bys
 bzW
 bBf
 bCo
+<<<<<<< Updated upstream
 bkh
+=======
+buf
+>>>>>>> Stashed changes
 bEB
 bkh
 buh
@@ -91504,9 +92019,15 @@ byt
 bzX
 bpP
 bCp
+<<<<<<< Updated upstream
 bpP
 bEC
 bFT
+=======
+bKa
+bEA
+bsG
+>>>>>>> Stashed changes
 bHa
 bIi
 bJp
@@ -95357,7 +95878,15 @@ gkS
 tTl
 tTl
 tTl
+<<<<<<< Updated upstream
 tTl
+=======
+buC
+bFS
+byP
+bxG
+bxG
+>>>>>>> Stashed changes
 dgg
 phJ
 phJ
@@ -95607,12 +96136,21 @@ aDZ
 aDZ
 bjm
 mhn
+<<<<<<< Updated upstream
 cqi
 cqi
 dtz
 cqi
 cqi
 imE
+=======
+vNK
+vNK
+vNK
+bwb
+crA
+vNK
+>>>>>>> Stashed changes
 kYM
 mfC
 fdQ
@@ -95866,9 +96404,9 @@ bKM
 cCl
 cCl
 cCl
-tJr
+cCl
 tzH
-tzH
+imE
 byD
 bAm
 dhz
@@ -96379,9 +96917,15 @@ cqi
 boQ
 cCl
 brq
+<<<<<<< Updated upstream
 byF
 cCt
 npg
+=======
+oFl
+cCt
+oFl
+>>>>>>> Stashed changes
 bxc
 nIU
 bAo

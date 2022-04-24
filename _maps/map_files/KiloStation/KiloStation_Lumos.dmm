@@ -1904,11 +1904,15 @@
 /turf/open/floor/plasteel/dark,
 /area/maintenance/port/aft)
 "aea" = (
-/obj/structure/bed,
+/obj/structure/bed{
+	dir = 1
+	},
 /obj/structure/sign/poster/contraband/random{
 	pixel_y = 32
 	},
-/obj/item/bedsheet/brown,
+/obj/item/bedsheet/brown{
+	dir = 1
+	},
 /turf/open/floor/plasteel/dark,
 /area/maintenance/fore)
 "aec" = (
@@ -40073,8 +40077,12 @@
 /turf/open/floor/wood,
 /area/commons/locker)
 "bKc" = (
-/obj/structure/bed,
-/obj/item/bedsheet/black,
+/obj/structure/bed{
+	dir = 1
+	},
+/obj/item/bedsheet/black{
+	dir = 1
+	},
 /obj/effect/landmark/start/assistant,
 /obj/machinery/button/door{
 	id = "Cabin_4Privacy";
@@ -40093,8 +40101,12 @@
 /turf/open/floor/wood,
 /area/commons/locker)
 "bKd" = (
-/obj/structure/bed,
-/obj/item/bedsheet/black,
+/obj/structure/bed{
+	dir = 1
+	},
+/obj/item/bedsheet/black{
+	dir = 1
+	},
 /obj/effect/landmark/start/assistant,
 /obj/machinery/button/door{
 	id = "Cabin_3Privacy";

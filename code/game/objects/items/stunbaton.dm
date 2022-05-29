@@ -16,7 +16,7 @@
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 50, "bio" = 0, "rad" = 0, "fire" = 80, "acid" = 80)
 	attack_speed = CLICK_CD_MELEE
 
-	var/stamina_loss_amount = 60 // Lumos change from 35 to 60
+	var/stamina_loss_amount = 0 // Lumos change from 35 to 60
 	var/turned_on = FALSE
 	var/armor_pen = 100
 	var/knockdown = TRUE

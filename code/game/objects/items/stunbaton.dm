@@ -2,8 +2,8 @@
 #define STUNBATON_DEPLETION_RATE 0.006
 
 /obj/item/melee/baton
-	name = "stunbaton"
-	desc = "A stun baton for incapacitating people with."
+	name = "baton"
+	desc = "A useless stick created for cavemen. Offers no utility beyond being a decent bludgeon."
 	icon_state = "stunbaton"
 	item_state = "baton"
 	lefthand_file = 'icons/mob/inhands/equipment/security_lefthand.dmi'

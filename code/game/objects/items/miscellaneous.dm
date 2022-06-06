@@ -217,7 +217,7 @@
 /obj/item/choice_beacon/box/carpet //donator carpet beacon
 	name = "choice box (carpet)"
 	desc = "Contains 50 of a selected carpet inside!"
-	var/static/list/carpet_list = list(/obj/item/stack/tile/carpet/black/fifty = "Black Carpet",
+	var/static/list/carpet_list = list("Black Carpet" = /obj/item/stack/tile/carpet/black/fifty,
 		"Black & Red Carpet" = /obj/item/stack/tile/carpet/blackred/fifty,
 		"Monochrome Carpet" = /obj/item/stack/tile/carpet/monochrome/fifty,
 		"Blue Carpet" = /obj/item/stack/tile/carpet/blue/fifty,

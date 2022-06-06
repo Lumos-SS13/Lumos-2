@@ -71,3 +71,8 @@
 	description = "Everything the electric razor does plus getting executed by security for slitting someone's throat with this."
 	path = /obj/item/razor/straightrazor
 	cost = 8
+
+/datum/gear/hands/skateboard
+	name = "Skateboard"
+	path = /obj/item/melee/skateboard
+	cost = 10

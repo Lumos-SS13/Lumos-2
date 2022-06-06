@@ -39,4 +39,4 @@
 
 	backpack = /obj/item/storage/backpack/virology
 	satchel = /obj/item/storage/backpack/satchel/vir
-	duffelbag = /obj/item/storage/backpack/duffelbag/med
+	duffelbag = /obj/item/storage/backpack/duffelbag/virology //Lumos change

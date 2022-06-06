@@ -36,7 +36,7 @@
 	suit =  /obj/item/clothing/suit/toggle/labcoat/chemist
 	backpack = /obj/item/storage/backpack/chemistry
 	satchel = /obj/item/storage/backpack/satchel/chem
-	duffelbag = /obj/item/storage/backpack/duffelbag/med
+	duffelbag = /obj/item/storage/backpack/duffelbag/chemistry //Lumos change
 
 	backpack_contents = list(/obj/item/storage/hypospraykit/regular)
 

@@ -177,10 +177,13 @@
 					/obj/item/clothing/gloves/fingerless = 3,
 					/obj/item/clothing/head/soft/black = 3,
 					/obj/item/clothing/mask/bandana/skull = 2,
+					/obj/item/storage/backpack/science/robo = 3,
+					/obj/item/storage/backpack/satchel/tox/robo = 3,
+					/obj/item/storage/backpack/duffelbag/robo = 3)
+	contraband = list(/obj/item/clothing/suit/hooded/techpriest = 2,
 					/obj/item/clothing/under/misc/mechsuitred = 1,
 					/obj/item/clothing/under/misc/mechsuitwhite = 1,
 					/obj/item/clothing/under/misc/mechsuitblue = 1)
-	contraband = list(/obj/item/clothing/suit/hooded/techpriest = 2)
 	refill_canister = /obj/item/vending_refill/wardrobe/robo_wardrobe
 	extra_price = PRICE_EXPENSIVE * 1.2
 	payment_department = ACCOUNT_SCI
@@ -194,9 +197,9 @@
 	product_ads = "Longing for the smell of plasma burnt flesh? Buy your science clothing now!;Made with 10% Auxetics, so you don't have to worry about losing your arm!"
 	vend_reply = "Thank you for using the SciDrobe!"
 	products = list(/obj/item/clothing/accessory/pocketprotector = 5,
+					/obj/item/clothing/glasses/science = 3,
+					/obj/item/clothing/mask/gas = 5,
 					/obj/item/clothing/head/beret/sci = 3,
-					/obj/item/storage/backpack/science = 3,
-					/obj/item/storage/backpack/satchel/tox = 3,
 					/obj/item/clothing/suit/hooded/wintercoat/science = 3,
 					/obj/item/clothing/under/rank/rnd/scientist = 4,
 					/obj/item/clothing/under/rank/rnd/scientist/util = 4,
@@ -205,7 +208,9 @@
 					/obj/item/clothing/suit/toggle/labcoat/depjacket/sci = 4,
 					/obj/item/clothing/shoes/sneakers/white = 4,
 					/obj/item/radio/headset/headset_sci = 4,
-					/obj/item/clothing/mask/gas = 5)
+					/obj/item/storage/backpack/science = 3,
+					/obj/item/storage/backpack/satchel/tox = 3,
+					/obj/item/storage/backpack/duffelbag/sci = 3)
 	refill_canister = /obj/item/vending_refill/wardrobe/science_wardrobe
 	payment_department = ACCOUNT_SCI
 /obj/item/vending_refill/wardrobe/science_wardrobe
@@ -217,16 +222,17 @@
 	icon_state = "hydrobe"
 	product_ads = "Do you love soil? Then buy our clothes!;Get outfits to match your green thumb here!"
 	vend_reply = "Thank you for using the Hydrobe!"
-	products = list(/obj/item/storage/backpack/botany = 3,
-					/obj/item/storage/backpack = 3,
+	products = list(/obj/item/radio/headset/headset_srv = 3,
+					/obj/item/storage/backpack/botany = 3,
 					/obj/item/storage/backpack/satchel/hyd = 3,
-					/obj/item/storage/backpack/duffelbag = 3,
+					/obj/item/storage/backpack/duffelbag/botany = 3, //Lumos change
 					/obj/item/clothing/suit/hooded/wintercoat/hydro = 2,
 					/obj/item/clothing/suit/apron = 3,
 					/obj/item/clothing/suit/apron/overalls = 5,
 					/obj/item/clothing/under/rank/civilian/hydroponics = 5,
 					/obj/item/clothing/under/rank/civilian/hydroponics/skirt = 5,
-					/obj/item/clothing/mask/bandana = 4)
+					/obj/item/clothing/mask/bandana = 4,
+					/obj/item/storage/belt/fannypack/green = 2)
 	refill_canister = /obj/item/vending_refill/wardrobe/hydro_wardrobe
 	payment_department = ACCOUNT_SRV
 	light_color = LIGHT_COLOR_ELECTRIC_GREEN
@@ -246,6 +252,7 @@
 					/obj/item/pen/fourcolor = 1,
 					/obj/item/pen/fountain = 2,
 					/obj/item/clothing/accessory/pocketprotector = 2,
+					/obj/item/radio/headset/headset_srv = 1,
 					/obj/item/clothing/under/rank/civilian/curator/skirt = 2,
 					/obj/item/clothing/under/rank/captain/suit/skirt = 2,
 					/obj/item/clothing/under/rank/civilian/head_of_personnel/suit/skirt = 2,
@@ -294,7 +301,7 @@
 	product_ads = "Our clothes are guaranteed to protect you from food splatters!"
 	vend_reply = "Thank you for using the ChefDrobe!"
 	products = list(/obj/item/clothing/under/suit/waiter = 3,
-					/obj/item/radio/headset/headset_srv = 4,
+					/obj/item/radio/headset/headset_srv = 1,
 					/obj/item/clothing/accessory/waistcoat = 3,
 					/obj/item/clothing/suit/apron/chef = 3,
 					/obj/item/clothing/head/soft/mime = 2,
@@ -321,6 +328,7 @@
 	products = list(/obj/item/clothing/under/rank/civilian/janitor = 2,
 					/obj/item/clothing/under/rank/civilian/janitor/skirt = 2,
 					/obj/item/clothing/suit/hooded/wintercoat/janitor = 3,
+					/obj/item/radio/headset/headset_srv = 3,
 					/obj/item/cartridge/janitor = 3,
 					/obj/item/clothing/gloves/color/black = 2,
 					/obj/item/clothing/head/soft/purple = 2,
@@ -418,6 +426,7 @@
 					/obj/item/clothing/suit/toggle/labcoat/chemist = 3,
 					/obj/item/storage/backpack/chemistry = 3,
 					/obj/item/storage/backpack/satchel/chem = 3,
+					/obj/item/storage/backpack/duffelbag/chemistry = 3, //Lumos change
 					/obj/item/storage/bag/chemistry = 3,
 					/obj/item/fermichem/pHbooklet = 3)
 	refill_canister = /obj/item/vending_refill/wardrobe/chem_wardrobe
@@ -437,7 +446,8 @@
 					/obj/item/clothing/shoes/sneakers/white = 3,
 					/obj/item/clothing/suit/toggle/labcoat/genetics = 3,
 					/obj/item/storage/backpack/genetics = 3,
-					/obj/item/storage/backpack/satchel/gen = 3)
+					/obj/item/storage/backpack/satchel/gen = 3,
+					/obj/item/storage/backpack/duffelbag/genetics = 3) //Lumos change
 	refill_canister = /obj/item/vending_refill/wardrobe/gene_wardrobe
 	payment_department = ACCOUNT_SCI
 /obj/item/vending_refill/wardrobe/gene_wardrobe
@@ -457,7 +467,8 @@
 					/obj/item/clothing/suit/toggle/labcoat/virologist = 3,
 					/obj/item/clothing/mask/surgical = 3,
 					/obj/item/storage/backpack/virology = 3,
-					/obj/item/storage/backpack/satchel/vir = 3)
+					/obj/item/storage/backpack/satchel/vir = 3,
+					/obj/item/storage/backpack/duffelbag/virology = 3) //Lumos change
 	refill_canister = /obj/item/vending_refill/wardrobe/viro_wardrobe
 	payment_department = ACCOUNT_MED
 /obj/item/vending_refill/wardrobe/viro_wardrobe

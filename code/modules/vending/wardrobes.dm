@@ -152,7 +152,8 @@
 					/obj/item/clothing/shoes/sneakers/black = 5,
 					/obj/item/clothing/gloves/fingerless = 5,
 					/obj/item/clothing/head/soft = 5,
-					/obj/item/radio/headset/headset_cargo = 3)
+					/obj/item/radio/headset/headset_cargo = 3
+					/obj/item/storage/belt/fannypack/yellow = 2)
 	refill_canister = /obj/item/vending_refill/wardrobe/cargo_wardrobe
 	payment_department = ACCOUNT_CAR
 

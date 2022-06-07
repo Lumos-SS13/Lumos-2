@@ -8666,6 +8666,7 @@
 	},
 /obj/effect/turf_decal/tile/blue,
 /obj/machinery/suit_storage_unit/paramedic,
+/obj/item/tank/internals/oxygen,
 /turf/open/floor/plasteel/white,
 /area/medical/paramedic)
 "eib" = (
@@ -31357,6 +31358,7 @@
 	dir = 4
 	},
 /obj/machinery/suit_storage_unit/paramedic,
+/obj/item/tank/internals/oxygen,
 /turf/open/floor/plasteel/white,
 /area/medical/paramedic)
 "oqY" = (

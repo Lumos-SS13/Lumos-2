@@ -6,10 +6,6 @@
 	name = "Cane"
 	path = /obj/item/cane
 
-/datum/gear/hands/cigarettes
-	name = "Cigarette pack"
-	path = /obj/item/storage/fancy/cigarettes
-
 /datum/gear/hands/dice
 	name = "Dice bag"
 	path = /obj/item/storage/dice
@@ -17,14 +13,6 @@
 /datum/gear/hands/eightball
 	name = "Magic eightball"
 	path = /obj/item/toy/eightball
-
-/datum/gear/hands/matches
-	name = "Matchbox"
-	path = /obj/item/storage/box/matches
-
-/datum/gear/hands/cheaplighter
-	name = "Cheap lighter"
-	path = /obj/item/lighter/greyscale
 
 /datum/gear/hands/cards
 	name = "Playing cards"
@@ -43,10 +31,30 @@
 	path = /obj/item/reagent_containers/food/drinks/flask
 	cost = 2
 
+/datum/gear/hands/matches
+	name = "Matchbox"
+	path = /obj/item/storage/box/matches
+
+/datum/gear/hands/cheaplighter
+	name = "Cheap lighter"
+	path = /obj/item/lighter/greyscale
+
 /datum/gear/hands/zippolighter
 	name = "Zippo Lighter"
 	path = /obj/item/lighter
 	cost = 2
+
+/datum/gear/hands/cigpack_robust
+	name = "Robust packet"
+	path = /obj/item/storage/fancy/cigarettes/cigpack_robust
+
+/datum/gear/hands/dromedaryco
+	name = "DromedaryCo packet"
+	path = /obj/item/storage/fancy/cigarettes/dromedaryco
+
+/datum/gear/hands/cigpack_uplift
+	name = "Uplift Smooth packet"
+	path = /obj/item/storage/fancy/cigarettes/cigpack_uplift
 
 /datum/gear/hands/cigar
 	name = "Cigar"

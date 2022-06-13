@@ -265,3 +265,8 @@
 /obj/item/reagent_containers/pill/breast_enlargement
 	name = "breast enlargement pill"
 	list_reagents = list(/datum/reagent/fermi/breast_enlarger = 10)
+
+/obj/item/reagent_containers/pill/genital_conflictions
+	name = "genital confliction pill"
+	desc = "One of the strangest concoctions ever thought up by Euan Morrison, a pill containing both penis enlargement and breast enlargement reagents at a high dosage. This causes an... interesting reaction when administered."
+	list_reagents = list(/datum/reagent/fermi/penis_enlarger = 20, /datum/reagent/fermi/breast_enlarger = 20)

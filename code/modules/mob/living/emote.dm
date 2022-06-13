@@ -115,6 +115,15 @@
 	key = "fart"
 	key_third_person = "farts"
 	message = "farts."
+	message_mime = "silently farts."
+	message_monkey = "lets one rip, grinning wildly."
+	message_alien = "emits clicking noises from the lower end."
+	message_larva = "emits gas from the lower end."
+	message_robot = "plays a stock fart sound effect"
+	message_ai = "plays a stock fart sound effect"
+	message_simple = "farts simply"
+	emote_type = EMOTE_AUDIBLE
+	list/mob_type_allowed_typecache = /mob
 
 /datum/emote/living/flap
 	key = "flap"

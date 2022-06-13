@@ -1,6 +1,6 @@
 /mob/living/simple_animal/hostile/skeleton
 	name = "reanimated skeleton"
-	desc = "A real bonefied skeleton, doesn't seem like it wants to socialize."
+	desc = "A real bonefied skeleton, doesn't seem like it wants to socialize. This thing boned your spouse while you weren't home."
 	icon = 'icons/mob/simple_human.dmi'
 	icon_state = "skeleton"
 	icon_living = "skeleton"
@@ -59,7 +59,7 @@
 
 /mob/living/simple_animal/hostile/skeleton/templar
 	name = "undead templar"
-	desc = "The reanimated remains of a holy templar knight."
+	desc = "The reanimated remains of a holy templar knight. This thing doesn't know how unholy his ressurection was."
 	icon_state = "templar"
 	icon_living = "templar"
 	icon_dead = "templar_dead"

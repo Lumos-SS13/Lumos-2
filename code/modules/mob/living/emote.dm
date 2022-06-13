@@ -111,6 +111,11 @@
 		var/mob/living/L = user
 		L.SetSleeping(200)
 
+/datum/emote/living/fart
+	key = "fart"
+	key_third_person = "farts"
+	message = "farts."
+
 /datum/emote/living/flap
 	key = "flap"
 	key_third_person = "flaps"

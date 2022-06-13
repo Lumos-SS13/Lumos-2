@@ -145,7 +145,7 @@
 /datum/supply_pack/misc/bicycle
 	name = "Bicycle"
 	desc = "Nanotrasen reminds all employees to not cover the entire hallway with tyre tracks."
-	cost = 450
+	cost = 1000
 	contains = list(/obj/vehicle/ridden/bicycle)
 	crate_name = "Bicycle Crate"
 	crate_type = /obj/structure/closet/crate/large

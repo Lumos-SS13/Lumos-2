@@ -29,6 +29,7 @@
 				/obj/item/storage/daki = 3,
 				/obj/item/dildo/custom = 5,
 				/obj/item/storage/pill_bottle/penis_enlargement = 3,
+				/obj/item/storage/pill_bottle/bodily_conflictions = 3,
 				/obj/item/storage/pill_bottle/breast_enlargement = 3,
 				/obj/item/reagent_containers/glass/bottle/crocin = 5,
 				/obj/item/reagent_containers/glass/bottle/camphor = 5,

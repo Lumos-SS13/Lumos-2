@@ -38,6 +38,7 @@
 				/obj/item/key/collar = 3,
 				/obj/item/clothing/head/kitty = 1,
 				/obj/item/clothing/head/rabbitears = 1,
+				/obj/item/assembly/flash/hypnotic = 1,
 				/obj/item/clothing/under/misc/keyholesweater = 1,
 				/obj/item/clothing/under/misc/stripper/mankini = 1,
 				/obj/item/clothing/under/costume/jabroni = 1,

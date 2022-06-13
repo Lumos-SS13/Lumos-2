@@ -397,6 +397,14 @@
 	for(var/i in 1 to 10)
 		new /obj/item/reagent_containers/pill/penis_enlargement(src)
 
+/obj/item/storage/pill_bottle/bodily_conflictions
+	name = "Genital Conflictions"
+	desc = "Made by Euan Morrison - A drug which causes the user's genitals to fight over size. The winning genital grows, and the losing genital shrinks."
+
+/obj/item/storage/pill_bottle/bodily_conflictions/PopulateContents()
+	for(var/i in 1 to 10)
+		new /obj/item/reagent_containers/pill/genital_conflictions(src)
+
 /obj/item/storage/pill_bottle/breast_enlargement
 	name = "breast enlargement pills"
 	desc = "Made by Fermichem - The bottle shows a woman with breasts larger than she is on them. The warning states to not take more than 10 units at a time."

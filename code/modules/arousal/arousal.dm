@@ -1,5 +1,5 @@
 /mob/living
-	var/mb_cd_length = 5 SECONDS						//5 second cooldown for masturbating because fuck spam.
+	var/mb_cd_length = 2.5 SECONDS						//5 second cooldown for masturbating because fuck spam.
 	var/mb_cd_timer = 0									//The timer itself
 
 /mob/living/carbon/human

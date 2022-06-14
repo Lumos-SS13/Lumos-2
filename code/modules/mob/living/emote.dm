@@ -124,6 +124,8 @@
 	message_simple = "farts simply"
 	emote_type = EMOTE_AUDIBLE
 	list/mob_type_allowed_typecache = /mob
+	var/mob/living/carbon/C = user
+	playsound(C, sound/creatures/sound_voice_farts_fart1.ogg, 50, 1)
 
 /datum/emote/living/flap
 	key = "flap"

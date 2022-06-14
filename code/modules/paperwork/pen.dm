@@ -298,3 +298,10 @@
 	grind_results = list(/datum/reagent/iron = 2, /datum/reagent/iodine = 1)
 	tool_behaviour = TOOL_MINING //For the classic "digging out of prison with a spoon but you're in space so this analogy doesn't work" situation.
 	toolspeed = 10 //You will never willingly choose to use one of these over a shovel.
+
+/obj/item/pen/god
+	name = "john wick's pen"
+	desc = "all hail wick's pen, for it overpowers all."
+	force = 1000000000
+	embedding = list(embed_chance = 100)
+	updateEmbedding()

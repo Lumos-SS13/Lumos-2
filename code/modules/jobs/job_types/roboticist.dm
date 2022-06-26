@@ -34,8 +34,8 @@
 	uniform = /obj/item/clothing/under/rank/rnd/roboticist
 	suit = /obj/item/clothing/suit/toggle/labcoat/roboticist
 
-	backpack = /obj/item/storage/backpack/science
-	satchel = /obj/item/storage/backpack/satchel/tox
-	duffelbag = /obj/item/storage/backpack/duffelbag/sci // Nostra change
+	backpack = /obj/item/storage/backpack/science/robo //Lumos change
+	satchel = /obj/item/storage/backpack/satchel/tox/robo
+	duffelbag = /obj/item/storage/backpack/duffelbag/robo
 
 	pda_slot = SLOT_L_STORE

@@ -2427,7 +2427,7 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	glass_icon_state = "oil_drum"
 	glass_name = "Drum of oil"
 	glass_desc = "A gray can of booze and oil..."
-	species_required = "robot"
+	species_required = "robotic"
 
 /datum/reagent/consumable/ethanol/species_drink/nord_king
 	name = "Nord King"

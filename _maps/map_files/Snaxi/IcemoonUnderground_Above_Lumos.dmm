@@ -3253,9 +3253,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/maintenance/starboard{
-	name = "Service Basement"
-	})
+/area/service/basement)
 "ke" = (
 /obj/effect/turf_decal/tile/neutral,
 /turf/open/floor/plasteel,

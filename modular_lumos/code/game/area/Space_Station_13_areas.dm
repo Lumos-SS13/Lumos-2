@@ -118,3 +118,11 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	ambientsounds = MAINTENANCE
 	area_flags = BLOBS_ALLOWED | CULT_PERMITTED
 	sound_environment = SOUND_AREA_TUNNEL_ENCLOSED
+
+/area/science/lowmaint
+	name = "Lower Science Maintenance"
+	icon_state = "purple"
+		// ambience_index = AMBIENCE_MAINT
+	ambientsounds = MAINTENANCE
+	area_flags = BLOBS_ALLOWED | CULT_PERMITTED
+	sound_environment = SOUND_AREA_TUNNEL_ENCLOSED

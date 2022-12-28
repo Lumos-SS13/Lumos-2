@@ -131,6 +131,14 @@
 	departmental_flags = DEPARTMENTAL_FLAG_ALL
 	category = list("Misc. Machinery")
 
+/datum/design/board/prize_counter
+	name = "Machine Design (Prize Counter)"
+	desc = "The circuit board for an arcade Prize Counter."
+	id = "prize_counter"
+	build_path = /obj/item/circuitboard/machine/prize_counter
+	departmental_flags = DEPARTMENTAL_FLAG_ALL
+	category = list("Misc. Machinery")
+
 /datum/design/board/hypnochair
 	name = "Machine Design (Enhanced Interrogation Chamber)"
 	desc = "Allows for the construction of circuit boards used to build an Enhanced Interrogation Chamber."

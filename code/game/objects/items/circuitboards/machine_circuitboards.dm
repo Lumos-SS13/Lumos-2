@@ -66,6 +66,15 @@
 		/obj/item/stock_parts/manipulator = 1,
 		/obj/item/stack/sheet/glass = 1)
 
+/obj/item/circuitboard/machine/prize_counter
+	name = "Prize Counter (Machine Board)"
+	build_path = /obj/machinery/prize_counter
+	req_components = list(
+		/obj/item/stock_parts/matter_bin = 1,
+		/obj/item/stock_parts/manipulator = 1,
+		/obj/item/stack/cable_coil = 1,
+		/obj/item/stack/sheet/glass = 1)
+
 /obj/item/circuitboard/machine/tesla_coil
 	name = "Tesla Controller (Machine Board)"
 	desc = "You can use a screwdriver to switch between Research and Power Generation."

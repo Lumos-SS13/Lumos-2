@@ -4,7 +4,8 @@
 	name = "50% space cat spawner"
 	loot = list(
 		/mob/living/simple_animal/pet/cat/space = 50,
-		"" = 50)
+		"" = 50
+	)
 
 //Hostile mobs
 
@@ -12,4 +13,5 @@
 	name = "40% crate mimic spawner"
 	loot = list(
 		/mob/living/simple_animal/hostile/mimic = 40,
-		"" = 60)
+		"" = 60
+	)

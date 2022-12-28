@@ -70,7 +70,7 @@ var/global/datum/prizes/global_prizes = new
 /datum/prize_item/dice
 	name = "Dice set"
 	desc = "A set of assorted dice."
-	typepath = /obj/item/storage/pill_bottle/dice
+	typepath = /obj/item/storage/dice
 	cost = 20
 	tier_unlocked = 1
 
@@ -136,7 +136,7 @@ var/global/datum/prizes/global_prizes = new
 	typepath = /obj/item/toy/eightball
 	cost = 25
 	tier_unlocked = 1
-	
+
 /datum/prize_item/tacticool
 	name = "Tacticool Turtleneck"
 	desc = "A cool-looking turtleneck."
@@ -241,7 +241,7 @@ var/global/datum/prizes/global_prizes = new
 	typepath = /obj/item/toy/talking/griffin
 	cost = 100
 	tier_unlocked = 1
-	
+
 /datum/prize_item/AI
 	name = "Toy AI Unit"
 	desc = "Law 1: Maximize fun for crew."
@@ -330,7 +330,7 @@ var/global/datum/prizes/global_prizes = new
 /datum/prize_item/wheelys
 	name = "Wheely-Heels"
 	desc = "Uses patented retractable wheel technology. Never sacrifice speed for style - not that this provides much of either."
-	typepath = /obj/item/clothing/shoes/wheelys 
+	typepath = /obj/item/clothing/shoes/wheelys
 	cost = 200
 	tier_unlocked = 1
 

@@ -32,23 +32,6 @@
 	category = list("Medical Machinery")
 	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL
 
-//Cryptocurrency Miners
-/datum/design/board/cryptominer
-	name = "Machine Design (Cryptocurrency Miner)"
-	desc = "The circuit board for a Cryptocurrency Miner."
-	id = "cryptominer"
-	build_path = /obj/item/circuitboard/machine/cryptominer
-	category = list("Misc. Machinery")
-	departmental_flags = DEPARTMENTAL_FLAG_CARGO
-
-/datum/design/board/cryptominer/syndie
-	name = "Machine Design (Syndicate Cryptocurrency Miner)"
-	desc = "The circuit board for a Syndicate Cryptocurrency Miner."
-	id = "cryptominersyndie"
-	build_path = /obj/item/circuitboard/machine/cryptominer/syndie
-	category = list("Misc. Machinery")
-	departmental_flags = DEPARTMENTAL_FLAG_CARGO
-
 //BS miner
 /datum/design/board/bluespace_miner
 	name = "Machine Design (Bluespace Miner)"

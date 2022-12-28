@@ -12,26 +12,6 @@
 		/obj/item/stock_parts/micro_laser = 3,
 		/obj/item/stock_parts/matter_bin = 1)
 
-/obj/item/circuitboard/machine/cryptominer
-	name = "Cryptocurrency Miner (Machine Board)"
-	build_path = /obj/machinery/cryptominer
-	req_components = list(
-		/obj/item/stock_parts/matter_bin = 2,
-		/obj/item/stock_parts/micro_laser = 2,
-		/obj/item/stock_parts/manipulator = 2,
-		/obj/item/stock_parts/scanning_module = 2,
-		/obj/item/stack/ore/bluespace_crystal = 2)
-
-/obj/item/circuitboard/machine/cryptominer/syndie
-	name = "Syndicate Cryptocurrency Miner (Machine Board)"
-	build_path = /obj/machinery/cryptominer/syndie
-	req_components = list(
-		/obj/item/stock_parts/matter_bin = 2,
-		/obj/item/stock_parts/micro_laser = 2,
-		/obj/item/stock_parts/manipulator = 2,
-		/obj/item/stock_parts/scanning_module = 2,
-		/obj/item/stack/ore/bluespace_crystal = 2)
-
 /obj/item/circuitboard/machine/bluespace_miner
 	name = "Bluespace Miner (Machine Board)"
 	build_path = /obj/machinery/mineral/bluespace_miner

@@ -11,46 +11,6 @@
 	time = 40
 	subcategory = CAT_TOOL
 	category = CAT_MISCELLANEOUS
-*/
-
-/datum/crafting_recipe/protolathe
-	name = "Protolathe Board"
-	result = /obj/item/circuitboard/machine/protolathe
-	reqs = list(/obj/item/circuitboard/machine/techfab/department/cargo = 1,
-				/obj/item/circuitboard/machine/techfab/department/engineering = 1,
-				/obj/item/circuitboard/machine/techfab/department/medical = 1,
-				/obj/item/circuitboard/machine/techfab/department/science = 1,
-				/obj/item/circuitboard/machine/techfab/department/security = 1,
-				/obj/item/circuitboard/machine/techfab/department/service = 1,
-				/obj/item/stack/cable_coil = 15) //Nostra change
-	tools = list(TOOL_SCREWDRIVER, TOOL_WIRECUTTER, TOOL_WELDER)
-	time = 20
-	subcategory = CAT_TOOL
-	category = CAT_MISCELLANEOUS
-
-/* Nostra change
-/datum/crafting_recipe/circuit_imprinter
-	name = "Circuit Imprinter"
-	result = /obj/item/circuitboard/machine/circuit_imprinter
-	reqs = list(/obj/item/stack/sheet/metal = 1,
-				/obj/item/stack/sheet/mineral/gold = 2,
-				/obj/item/stack/sheet/mineral/uranium = 1,
-				/obj/item/stack/cable_coil = 5)
-	tools = list(TOOL_SCREWDRIVER, TOOL_WIRECUTTER, TOOL_WELDER)
-	time = 20
-	subcategory = CAT_TOOL
-	category = CAT_MISCELLANEOUS
-
-/datum/crafting_recipe/autolathe
-	name = "Autolathe Board"
-	result = /obj/item/circuitboard/machine/autolathe
-	reqs = list(/obj/item/stack/sheet/metal = 1,
-				/obj/item/stack/sheet/mineral/gold = 1,
-				/obj/item/stack/cable_coil = 20)
-	tools = list(TOOL_SCREWDRIVER, TOOL_WIRECUTTER, TOOL_WELDER)
-	time = 20
-	subcategory = CAT_TOOL
-	category = CAT_MISCELLANEOUS
 
 /datum/crafting_recipe/crowbar
 	name = "Makeshift Crowbar"

@@ -1,10 +1,10 @@
 // And so, people started making weird sounds that only similar ones could understand and do them too.
 
-/datum/language/modular_lumos
-	icon = 'modular_lumos/icons/misc/language.dmi'
+/datum/language/modular_sand
+	icon = 'modular_sand/icons/misc/language.dmi'
 	icon_state = null
 
-/datum/language/modular_lumos/sergal
+/datum/language/modular_sand/sergal
 	name = LANGUAGE_SERGAL
 	desc = "The dominant language of the Sergal homeworld, Tal. It consists of aggressive low-pitched hissing and throaty growling."
 	speech_verb = "snarls"
@@ -17,7 +17,7 @@
 	flags = TONGUELESS_SPEECH
 	restricted = FALSE
 
-/datum/language/modular_lumos/buggy
+/datum/language/modular_sand/buggy
 	name = "Buggy"
 	desc = "A barely comprehensible language, spoken by insectoid-like races."
 	speech_verb = "flutters"
@@ -34,7 +34,7 @@
 	default_priority = 94
 	restricted = FALSE
 
-/datum/language/modular_lumos/calcic
+/datum/language/modular_sand/calcic
 	name = "Calcic"
 	desc = "The disjointed and staccato language of plasmamen. Also understood by skeletons."
 	speech_verb = "rattles"
@@ -55,7 +55,7 @@
 	default_priority = 89
 	restricted = FALSE
 
-/datum/language/modular_lumos/dunmeri
+/datum/language/modular_sand/dunmeri
 	name = "Dunmeri"
 	desc = "The native language of the dark elves of lavaland."
 	speech_verb = "proclaims"
@@ -78,7 +78,7 @@
 	default_priority = 92
 	restricted = FALSE
 
-/datum/language/modular_lumos/moffic
+/datum/language/modular_sand/moffic
 	name = "Moffic"
 	desc = "The language of the Mothpeople borders on complete unintelligibility."
 	speech_verb = "flutters"
@@ -98,7 +98,7 @@
 	default_priority = 93
 	restricted = FALSE
 
-/datum/language/modular_lumos/shadowtongue
+/datum/language/modular_sand/shadowtongue
 	name = "Shadowtongue"
 	desc = "What a grand and intoxicating innocence."
 	speech_verb = "growls"
@@ -120,7 +120,7 @@
 	default_priority = 95
 	restricted = TRUE
 
-/datum/language/modular_lumos/solcommon
+/datum/language/modular_sand/solcommon
 	name = "Sol Common"
 	desc = "The old Earthen language of Latin, re-adopted into the modern day to offer more identity to Humanity."
 	speech_verb = "proclaims"
@@ -139,7 +139,7 @@
 	icon_state = "solcommon"
 	restricted = FALSE
 
-/datum/language/modular_lumos/technorussian
+/datum/language/modular_sand/technorussian
 	name = "Technorussian"
 	desc = "Ancient language of Russian colonists, rusted with time and bastardized with technical terms in everyday use."
 	speech_verb = "proclaims"

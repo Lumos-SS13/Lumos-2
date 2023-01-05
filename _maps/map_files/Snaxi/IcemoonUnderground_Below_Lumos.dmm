@@ -6,45 +6,46 @@
 /turf/open/floor/plating/asteroid/snow/icemoon,
 /area/icemoon/surface/outdoors)
 "aT" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/lattice/catwalk,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /turf/open/floor/plating,
-/area/bridge)
+/area/command/bridge)
 "bo" = (
 /obj/machinery/atmospherics/components/unary/tank/air{
 	dir = 1;
 	piping_layer = 1
 	},
 /turf/open/floor/plating,
-/area/bridge)
+/area/command/bridge)
 "bG" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /obj/machinery/space_heater,
 /turf/open/floor/plating,
-/area/bridge)
+/area/command/bridge)
 "bX" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/poster/ripped{
 	pixel_x = -32
 	},
 /turf/open/floor/plating,
-/area/maintenance/starboard/aft)
+/area/mine/eva)
 "bZ" = (
 /obj/structure/rack,
 /obj/item/pickaxe/mini,
 /obj/item/radio/off,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/flashlight/lantern{
+	on = 1
+	},
 /turf/open/floor/plasteel,
-/area/maintenance/starboard/aft)
+/area/mine/eva)
 "dK" = (
 /turf/closed/wall/r_wall,
 /area/mine/eva)
 "dV" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /turf/open/floor/plating,
-/area/bridge)
+/area/command/bridge)
 "en" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -74,9 +75,10 @@
 /turf/closed/mineral/random/snow/underground,
 /area/icemoon/surface/outdoors)
 "fM" = (
-/obj/effect/spawner/structure/window/ice,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/box,
 /turf/open/floor/plating,
-/area/maintenance/starboard/aft)
+/area/mine/eva)
 "fQ" = (
 /obj/machinery/light{
 	dir = 4
@@ -100,12 +102,14 @@
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plasteel,
 /area/mine/eva)
 "iS" = (
-/obj/structure/lattice/catwalk,
 /turf/open/floor/plating,
-/area/bridge)
+/area/command/bridge)
 "iW" = (
 /obj/effect/decal/remains/plasma,
 /obj/item/clothing/head/helmet/space/plasmaman/science,
@@ -116,12 +120,11 @@
 /turf/open/floor/plasteel,
 /area/mine/eva)
 "ko" = (
-/obj/structure/lattice/catwalk,
 /obj/structure/railing{
 	dir = 6
 	},
 /turf/open/floor/plating,
-/area/bridge)
+/area/command/bridge)
 "lP" = (
 /turf/closed/mineral/random/snow/underground,
 /area/icemoon/underground/explored)
@@ -129,7 +132,7 @@
 /obj/structure/ladder,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/maintenance/starboard/aft)
+/area/mine/eva)
 "mK" = (
 /turf/open/floor/plating/asteroid/snow/icemoon,
 /area/icemoon/underground/explored)
@@ -139,15 +142,14 @@
 	piping_layer = 3
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/bridge)
+/area/command/bridge)
 "nT" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/space_heater,
 /turf/open/floor/plasteel,
-/area/maintenance/starboard/aft)
+/area/mine/eva)
 "od" = (
 /obj/item/flashlight/lantern{
 	on = 1
@@ -165,7 +167,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/bridge)
+/area/command/bridge)
 "oY" = (
 /obj/item/storage/firstaid/regular,
 /obj/structure/table,
@@ -183,7 +185,7 @@
 	dir = 6
 	},
 /turf/open/floor/plating,
-/area/bridge)
+/area/command/bridge)
 "pw" = (
 /obj/item/clothing/glasses/science,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
@@ -205,12 +207,11 @@
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/icemoon/underground/explored)
 "qH" = (
-/obj/structure/table_frame,
 /obj/structure/sign/poster/official/help_others{
 	pixel_x = 32
 	},
 /turf/open/floor/plating,
-/area/maintenance/starboard/aft)
+/area/mine/eva)
 "rC" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 6
@@ -219,7 +220,7 @@
 	dir = 6
 	},
 /turf/open/floor/plating,
-/area/bridge)
+/area/command/bridge)
 "sd" = (
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors)
@@ -245,17 +246,22 @@
 /area/mine/eva)
 "sy" = (
 /obj/structure/ladder,
-/obj/structure/lattice/catwalk,
 /obj/structure/railing/corner,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 9
 	},
 /turf/open/floor/plating,
-/area/bridge)
+/area/command/bridge)
 "sQ" = (
 /obj/machinery/light/small{
 	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
 	},
 /turf/open/floor/plasteel,
 /area/mine/eva)
@@ -272,27 +278,32 @@
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel,
+/area/mine/eva)
+"uT" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel,
 /area/mine/eva)
 "vo" = (
 /obj/machinery/shower{
 	dir = 8
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel,
 /area/mine/eva)
 "wi" = (
-/obj/structure/lattice/catwalk,
 /obj/structure/railing{
 	dir = 5
 	},
 /turf/open/floor/plating,
-/area/bridge)
-"yo" = (
-/obj/structure/rack,
-/obj/effect/spawner/lootdrop/mre,
-/obj/item/trash/candy,
-/turf/open/floor/plasteel,
-/area/maintenance/starboard/aft)
+/area/command/bridge)
 "yK" = (
 /obj/machinery/light,
 /obj/effect/turf_decal/tile/brown,
@@ -302,7 +313,6 @@
 /turf/open/floor/plasteel,
 /area/mine/eva)
 "za" = (
-/obj/structure/lattice/catwalk,
 /obj/structure/railing{
 	dir = 4
 	},
@@ -310,14 +320,22 @@
 	dir = 9
 	},
 /turf/open/floor/plating,
-/area/bridge)
-"zQ" = (
-/obj/item/vending_refill/wardrobe/jani_wardrobe,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/icemoon/surface/outdoors)
+/area/command/bridge)
+"zD" = (
+/obj/effect/turf_decal/tile/brown,
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/deck_relay,
+/obj/effect/turf_decal/stripes/box,
+/turf/open/floor/plasteel/elevatorshaft,
+/area/mine/eva)
 "Ak" = (
 /turf/closed/wall/ice,
-/area/maintenance/starboard/aft)
+/area/mine/eva)
 "Ao" = (
 /turf/closed/wall,
 /area/mine/eva)
@@ -329,18 +347,14 @@
 /area/mine/eva)
 "AX" = (
 /turf/closed/wall/r_wall,
-/area/bridge)
-"Bm" = (
-/obj/item/vending_refill/hydronutrients/prisoner,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/icemoon/surface/outdoors)
+/area/command/bridge)
 "BS" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 5
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /turf/open/floor/plating,
-/area/bridge)
+/area/command/bridge)
 "BV" = (
 /turf/closed/indestructible/rock/snow/ice,
 /area/icemoon/underground/unexplored/rivers)
@@ -366,13 +380,13 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/bridge)
+/area/command/bridge)
 "Eo" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 9
 	},
 /turf/open/floor/plating,
-/area/bridge)
+/area/command/bridge)
 "Ep" = (
 /obj/machinery/door/airlock/external{
 	glass = 1;
@@ -383,7 +397,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/maintenance/starboard/aft)
+/area/mine/eva)
 "Es" = (
 /turf/closed/mineral/random/snow/underground,
 /area/icemoon/underground/unexplored/rivers)
@@ -397,7 +411,7 @@
 "Go" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/maintenance/starboard/aft)
+/area/mine/eva)
 "Hh" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -439,16 +453,19 @@
 	name = "Cold-wear Closet"
 	},
 /turf/open/floor/plasteel,
-/area/maintenance/starboard/aft)
+/area/mine/eva)
 "ME" = (
 /obj/structure/closet/emcloset,
 /obj/machinery/light/small,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
 /turf/open/floor/plasteel,
 /area/mine/eva)
 "Nf" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/maintenance/starboard/aft)
+/area/mine/eva)
 "Nn" = (
 /turf/open/floor/plasteel,
 /area/mine/eva)
@@ -466,29 +483,33 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/bridge)
+/area/command/bridge)
 "PX" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 10
 	},
 /turf/open/floor/plating,
-/area/bridge)
+/area/command/bridge)
 "QJ" = (
 /turf/open/floor/plating,
-/area/maintenance/starboard/aft)
-"Ru" = (
-/turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/unexplored/rivers)
+/area/mine/eva)
+"Rf" = (
+/obj/effect/spawner/structure/window/ice,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/mine/eva)
 "RC" = (
-/turf/closed/mineral/random/high_chance/snow,
-/area/icemoon/underground/unexplored/rivers)
+/obj/effect/spawner/structure/window/ice,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/plating,
+/area/mine/eva)
 "Tf" = (
 /turf/open/floor/engine,
 /area/science/mixing)
-"Ud" = (
-/obj/structure/trash_pile,
-/turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/surface/outdoors)
 "Vq" = (
 /obj/machinery/door/airlock/external{
 	name = "Mining Dock Airlock";
@@ -510,14 +531,13 @@
 /turf/open/floor/plating/asteroid/snow/icemoon,
 /area/science/mixing)
 "XA" = (
-/obj/structure/lattice/catwalk,
 /obj/effect/turf_decal/stripes/box,
 /obj/machinery/atmospherics/pipe/simple/multiz{
 	dir = 4;
 	piping_layer = 3
 	},
 /turf/open/floor/plating,
-/area/bridge)
+/area/command/bridge)
 "XB" = (
 /obj/machinery/door/airlock/external{
 	glass = 1;
@@ -525,17 +545,17 @@
 	opacity = 0
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
-/area/maintenance/starboard/aft)
+/area/mine/eva)
 "Zo" = (
-/obj/structure/lattice/catwalk,
 /obj/effect/turf_decal/stripes/box,
 /obj/machinery/atmospherics/pipe/simple/multiz{
 	dir = 4;
 	piping_layer = 1
 	},
 /turf/open/floor/plating,
-/area/bridge)
+/area/command/bridge)
 
 (1,1,1) = {"
 IJ
@@ -17019,7 +17039,6 @@ Es
 Es
 Es
 Es
-RC
 Es
 Es
 Es
@@ -17055,7 +17074,6 @@ Es
 Es
 Es
 Es
-RC
 Es
 Es
 Es
@@ -17144,7 +17162,6 @@ Es
 Es
 Es
 Es
-RC
 Es
 Es
 Es
@@ -17234,7 +17251,10 @@ Es
 Es
 Es
 Es
-RC
+Es
+Es
+Es
+Es
 Es
 Es
 Es
@@ -25243,7 +25263,7 @@ Es
 Es
 Es
 Es
-RC
+Es
 Es
 Es
 Es
@@ -25645,7 +25665,7 @@ Es
 Es
 Es
 Es
-RC
+Es
 Es
 Es
 Es
@@ -32439,7 +32459,7 @@ Es
 Es
 Es
 Es
-RC
+Es
 Es
 Es
 Es
@@ -33530,7 +33550,7 @@ Es
 Es
 Es
 Es
-RC
+Es
 Es
 Es
 Es
@@ -33750,7 +33770,7 @@ Es
 Es
 Es
 Es
-RC
+Es
 Es
 Es
 Es
@@ -34710,7 +34730,7 @@ Es
 Es
 Es
 Es
-RC
+Es
 Es
 Es
 Es
@@ -35790,7 +35810,7 @@ Es
 Es
 Es
 Es
-RC
+Es
 Es
 Es
 Es
@@ -38874,7 +38894,7 @@ Es
 Es
 Es
 Es
-RC
+Es
 Es
 Es
 Es
@@ -39231,9 +39251,9 @@ Es
 Es
 lP
 dK
-Hi
+RC
 Cf
-Hi
+RC
 dK
 lP
 Es
@@ -40002,7 +40022,7 @@ Es
 lP
 dK
 dK
-Hi
+Rf
 Vq
 Hi
 dK
@@ -40516,12 +40536,12 @@ Es
 lP
 Hi
 VO
-Nn
+uT
 sn
 Nn
 en
 Hi
-Ru
+lP
 Es
 Es
 Es
@@ -40714,7 +40734,7 @@ Es
 Es
 Es
 Es
-RC
+Es
 Es
 Es
 Es
@@ -40773,12 +40793,12 @@ Es
 lP
 dK
 eA
-Nn
+uT
 Ao
 Nn
 yK
 dK
-Ru
+lP
 Es
 Es
 Es
@@ -41030,12 +41050,12 @@ Es
 lP
 Hi
 VO
-Nn
+uT
 Nn
 Nn
 en
 Hi
-Ru
+lP
 Es
 Es
 Es
@@ -41284,15 +41304,15 @@ Es
 Es
 Es
 Es
-Ru
+lP
 Hi
 od
-Hh
+zD
 fQ
 tw
 oY
 Hi
-Ru
+lP
 Es
 Es
 Es
@@ -41541,7 +41561,7 @@ Es
 Es
 Es
 Es
-Ru
+lP
 dK
 Hi
 Hi
@@ -41798,11 +41818,11 @@ Es
 Es
 Es
 Es
-Ru
-Ru
-Ru
-Ru
-Ru
+lP
+lP
+lP
+lP
+lP
 lP
 lP
 lP
@@ -46574,7 +46594,7 @@ Es
 Es
 Es
 Es
-RC
+Es
 Es
 Es
 Es
@@ -49183,7 +49203,7 @@ Es
 Es
 Es
 Es
-Ud
+LR
 LR
 Es
 Es
@@ -49439,9 +49459,9 @@ Es
 Es
 Es
 Es
-Ud
 LR
-sd
+LR
+LR
 LR
 Es
 Es
@@ -49695,11 +49715,11 @@ Es
 Es
 Es
 Es
+LR
 sd
 sd
 sd
-zQ
-sd
+LR
 LR
 Es
 Es
@@ -49956,7 +49976,7 @@ LR
 sd
 Cn
 sd
-sd
+LR
 Es
 Es
 Es
@@ -50208,13 +50228,13 @@ Es
 Es
 Es
 Es
-Ud
-Bm
+LR
+LR
 sd
 sd
 sd
-Ud
-Ud
+LR
+LR
 Es
 Es
 Es
@@ -50468,8 +50488,8 @@ Es
 Es
 LR
 LR
-sd
-sd
+LR
+LR
 LR
 LR
 LR
@@ -50723,20 +50743,20 @@ Es
 Es
 Es
 Es
-Ud
+LR
 Es
 Es
-Ud
+LR
 Jb
 LR
 sd
 Ak
-fM
+Hi
 Ak
 Mp
 bX
 nT
-yo
+Nn
 Ak
 Es
 Es
@@ -51245,7 +51265,7 @@ Es
 Es
 Es
 Ak
-fM
+Hi
 Ak
 Mp
 Go
@@ -51506,7 +51526,7 @@ Es
 Ak
 Ak
 bZ
-Ak
+fM
 Ak
 Es
 Es
@@ -51764,7 +51784,7 @@ Es
 Ak
 Ak
 Ak
-Es
+Ak
 Es
 Es
 Es
@@ -59424,7 +59444,6 @@ Es
 Es
 Es
 Es
-RC
 Es
 Es
 Es
@@ -59448,7 +59467,6 @@ Es
 Es
 Es
 Es
-RC
 Es
 Es
 Es
@@ -59488,7 +59506,6 @@ Es
 Es
 Es
 Es
-RC
 Es
 Es
 Es
@@ -59528,7 +59545,6 @@ Es
 Es
 Es
 Es
-RC
 Es
 Es
 Es
@@ -59568,7 +59584,6 @@ Es
 Es
 Es
 Es
-RC
 Es
 Es
 Es
@@ -59608,7 +59623,6 @@ Es
 Es
 Es
 Es
-RC
 Es
 Es
 Es
@@ -59639,7 +59653,13 @@ Es
 Es
 Es
 Es
-RC
+Es
+Es
+Es
+Es
+Es
+Es
+Es
 Es
 Es
 Es

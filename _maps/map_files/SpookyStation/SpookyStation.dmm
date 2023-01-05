@@ -7863,6 +7863,7 @@
 /area/eventmap/inside)
 "awN" = (
 /obj/structure/table/wood/fancy/blackred,
+/obj/item/clothing/neck/devilwings,
 /turf/open/indestructible/spooknecropolis,
 /area/eventmap/inside)
 "awO" = (
@@ -9851,6 +9852,7 @@
 	dir = 4
 	},
 /obj/structure/closet/crate,
+/obj/item/clothing/neck/devilwings,
 /obj/item/clothing/gloves/bracer,
 /obj/item/clothing/accessory/skullcodpiece,
 /turf/open/floor/wood,
@@ -10857,10 +10859,6 @@
 /obj/structure/closet/chefcloset,
 /turf/open/floor/wood,
 /area/eventmap/inside)
-"aFq" = (
-/obj/item/autosurgeon/penis,
-/turf/open/floor/spooktime/dirtpatch,
-/area/eventmap/mountain)
 "aFr" = (
 /obj/machinery/rnd/production/circuit_imprinter,
 /turf/open/floor/circuit/off,
@@ -18201,7 +18199,7 @@ aWA
 ags
 ags
 ags
-aFq
+ags
 ags
 aac
 aac

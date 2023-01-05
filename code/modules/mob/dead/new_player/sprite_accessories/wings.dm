@@ -43,7 +43,7 @@
 	center = TRUE
 	dimension_y = 32
 	locked = TRUE
-	icon = 'modular_sand/icons/mob/wings.dmi'
+	icon = 'modular_lumos/icons/mob/wings.dmi'
 
 /datum/sprite_accessory/wings_open/dragon
 	name = "Dragon"
@@ -51,7 +51,7 @@
 	dimension_x = 96
 	center = TRUE
 	dimension_y = 32
-	icon = 'modular_sand/icons/mob/wings.dmi'
+	icon = 'modular_lumos/icons/mob/wings.dmi'
 
 // Decorative wings
 
@@ -465,14 +465,6 @@
 	name = "Witch Wing"
 	icon_state = "witchwing"
 
-//DONATOR WINGS
-
 /datum/sprite_accessory/deco_wings/eyestalks
 	name = "gazer eyestalks"
 	icon_state = "eyestalks"
-	//ckeys_allowed = list("liquidfirefly","seiga") //At request.
-
-/datum/sprite_accessory/insect_wings/eyestalks
-	name = "gazer eyestalks"
-	icon_state = "eyestalks"
-	//ckeys_allowed = list("liquidfirefly","seiga") //At request.

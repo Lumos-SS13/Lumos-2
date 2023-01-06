@@ -775,7 +775,7 @@ GLOBAL_LIST_INIT(valid_plushie_paths, valid_plushie_paths())
 	icon_state = "bird"
 	item_state = "bird"
 	attack_verb = list("peeped", "beeped", "poofed")
-	squeak_override = list('modular_lumos/sound/voice/peep.ogg' = 1)
+	squeak_override = list('modular_citadel/sound/voice/peep.ogg' = 1)
 	can_random_spawn = FALSE
 
 /obj/item/toy/plush/catgirl

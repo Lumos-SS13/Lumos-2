@@ -14,6 +14,20 @@
 	category = CAT_MISCELLANEOUS
 
 /* Nostra change
+/* Nostra change
+/datum/crafting_recipe/rnd_board
+	name = "RnD Console Board"
+	result = /obj/item/circuitboard/computer/rdconsole
+	reqs = list(/obj/item/stack/sheet/metal = 1,
+				/obj/item/stack/sheet/mineral/gold = 2,
+				/obj/item/stack/sheet/mineral/uranium = 1,
+				/obj/item/stack/sheet/mineral/plasma = 1,
+				/obj/item/stack/cable_coil = 5)
+	tools = list(TOOL_SCREWDRIVER, TOOL_WIRECUTTER, TOOL_WELDER)
+	time = 40
+	subcategory = CAT_TOOL
+	category = CAT_MISCELLANEOUS
+
 /datum/crafting_recipe/crowbar
 	name = "Makeshift Crowbar"
 	result = /obj/item/crowbar/makeshift

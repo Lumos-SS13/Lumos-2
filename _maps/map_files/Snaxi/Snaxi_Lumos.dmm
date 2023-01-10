@@ -1148,9 +1148,7 @@
 /turf/open/floor/wood{
 	icon_state = "wood-broken3"
 	},
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "apN" = (
 /obj/machinery/telecomms/bus/preset_three,
 /turf/open/floor/plasteel/dark/telecomms,
@@ -4600,9 +4598,7 @@
 /turf/open/floor/wood{
 	icon_state = "wood-broken4"
 	},
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "bnq" = (
 /obj/machinery/door/airlock/external{
 	name = "Engineering External Access";
@@ -4752,9 +4748,7 @@
 /area/maintenance/starboard/fore)
 "bpN" = (
 /turf/closed/indestructible/rock/snow/ice,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "bpO" = (
 /obj/structure/disposalpipe/trunk,
 /obj/machinery/disposal/bin,
@@ -4916,9 +4910,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "bsk" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 6
@@ -7343,9 +7335,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "bPu" = (
 /obj/structure/chair/stool,
 /turf/open/floor/plating/asteroid/snow/icemoon,
@@ -8029,9 +8019,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/stairs,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "cav" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
@@ -9120,9 +9108,7 @@
 /turf/open/floor/wood{
 	icon_state = "wood-broken"
 	},
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "csm" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin{
@@ -10608,9 +10594,7 @@
 /turf/open/floor/plasteel/stairs{
 	dir = 8
 	},
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "cUd" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
 	dir = 4
@@ -11498,7 +11482,7 @@
 /obj/effect/landmark/event_spawn,
 /obj/effect/landmark/start/assistant,
 /turf/open/floor/plasteel/freezer,
-/area/space)
+/area/commons/toilet)
 "dlK" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -13537,9 +13521,7 @@
 /turf/open/floor/wood{
 	icon_state = "wood-broken2"
 	},
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "edo" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -14756,9 +14738,7 @@
 /area/maintenance/port/fore)
 "eDQ" = (
 /turf/closed/mineral/random/snow,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "eEa" = (
 /obj/effect/turf_decal/weather/snow/corner,
 /turf/open/floor/plating,
@@ -18430,9 +18410,7 @@
 /area/icemoon/surface/outdoors)
 "gbJ" = (
 /turf/open/floor/wood,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "gbN" = (
 /obj/structure/fence/corner{
 	dir = 5
@@ -19679,9 +19657,7 @@
 "gDl" = (
 /obj/structure/chair/office/dark,
 /turf/open/floor/plasteel/grimy,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "gDm" = (
 /obj/structure/loot_pile/maint,
 /turf/open/floor/plating,
@@ -23692,9 +23668,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "iiA" = (
 /obj/structure/plasticflaps/opaque,
 /obj/machinery/navbeacon{
@@ -23923,9 +23897,7 @@
 	pixel_y = 6
 	},
 /turf/open/floor/plasteel/grimy,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "imM" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
@@ -24699,9 +24671,7 @@
 	name = "Coach"
 	},
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "iCK" = (
 /obj/structure/table/glass,
 /turf/open/floor/carpet/orange,
@@ -25783,9 +25753,7 @@
 /obj/item/ammo_casing/shotgun/dragonsbreath,
 /obj/structure/closet/crate/secure/weapon,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "iYi" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/wood,
@@ -26812,9 +26780,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "jtH" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line,
 /obj/machinery/light_switch{
@@ -27150,9 +27116,7 @@
 	network = list("penguin")
 	},
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "jAL" = (
 /obj/machinery/atmospherics/pipe/simple/orange/visible{
 	dir = 5
@@ -28000,9 +27964,7 @@
 	},
 /obj/item/reagent_containers/syringe,
 /turf/open/floor/wood,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "jQp" = (
 /obj/machinery/airalarm{
 	pixel_y = 28
@@ -31250,9 +31212,7 @@
 	dir = 9
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "lkI" = (
 /turf/open/floor/plasteel/dark,
 /area/commons/fitness)
@@ -31539,9 +31499,7 @@
 /obj/structure/chair/stool/bar,
 /obj/item/storage/pill_bottle,
 /turf/open/floor/wood,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "lpR" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -32080,9 +32038,7 @@
 "lBO" = (
 /obj/structure/fence,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "lBT" = (
 /obj/structure/cable{
 	icon_state = "1-8"
@@ -32586,9 +32542,7 @@
 	dir = 10
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "lOs" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3,
 /turf/open/floor/plasteel,
@@ -34682,9 +34636,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/grimy,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "mHi" = (
 /obj/machinery/light{
 	dir = 1
@@ -34761,9 +34713,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "mIu" = (
 /obj/structure/disposalpipe/segment{
 	dir = 5
@@ -36876,9 +36826,7 @@
 /obj/structure/barricade/wooden/snowed,
 /obj/effect/spawner/structure/window/ice,
 /turf/open/floor/plating,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "nAx" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable{
@@ -38615,9 +38563,7 @@
 "ofB" = (
 /obj/machinery/computer/slot_machine,
 /turf/open/floor/wood,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "ofF" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -39914,9 +39860,7 @@
 /area/icemoon/surface/outdoors)
 "oEd" = (
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "oEf" = (
 /obj/item/radio/intercom{
 	name = "Station Intercom (General)";
@@ -40528,9 +40472,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "oTn" = (
 /obj/structure/chair/comfy/black{
 	dir = 4
@@ -42435,9 +42377,7 @@
 	dir = 6
 	},
 /turf/open/floor/plating,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "pBh" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -46671,9 +46611,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/grimy,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "rdn" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -46713,9 +46651,7 @@
 /obj/structure/table/wood,
 /obj/item/storage/briefcase,
 /turf/open/floor/plasteel/grimy,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "reS" = (
 /obj/effect/turf_decal/plaque{
 	icon_state = "L6"
@@ -46786,9 +46722,7 @@
 /turf/open/floor/wood{
 	icon_state = "wood-broken7"
 	},
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "rgh" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
 	dir = 8
@@ -47409,9 +47343,7 @@
 "rry" = (
 /obj/structure/grille,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "rrC" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/plasteel,
@@ -48856,9 +48788,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "rYa" = (
 /turf/open/openspace/icemoon,
 /area/maintenance/disposal)
@@ -49259,9 +49189,7 @@
 /area/command/gateway)
 "siL" = (
 /turf/closed/wall,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "siO" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -51533,9 +51461,7 @@
 /area/maintenance/starboard/central)
 "tbV" = (
 /turf/open/floor/plasteel/grimy,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "tcj" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -51761,9 +51687,7 @@
 "tfO" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/wood,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "tfP" = (
 /obj/machinery/light,
 /obj/machinery/airalarm{
@@ -54058,9 +53982,7 @@
 "tZf" = (
 /obj/machinery/light/small,
 /turf/open/floor/plating,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "tZq" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
 	dir = 8
@@ -55093,9 +55015,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "uwn" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 1
@@ -55470,9 +55390,7 @@
 	dir = 5
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "uDJ" = (
 /obj/effect/landmark/start/bartender,
 /turf/open/floor/wood,
@@ -55518,9 +55436,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "uFj" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
 	dir = 4
@@ -56132,9 +56048,7 @@
 /area/service/chapel/office)
 "uSR" = (
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "uSU" = (
 /obj/structure/railing/corner{
 	dir = 8
@@ -56317,9 +56231,7 @@
 	name = "Nick"
 	},
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "uWQ" = (
 /obj/structure/table/wood,
 /obj/machinery/light{
@@ -57281,9 +57193,7 @@
 /area/service/library)
 "vlf" = (
 /turf/closed/wall/r_wall,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "vlv" = (
 /obj/effect/landmark/start/prisoner,
 /obj/effect/landmark/start/prisoner,
@@ -60062,9 +59972,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "wnO" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3,
 /turf/open/floor/plasteel,
@@ -60927,9 +60835,7 @@
 	name = "Ellis"
 	},
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "wGv" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/line{
@@ -60979,9 +60885,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "wHs" = (
 /obj/structure/chair/office/dark{
 	dir = 8
@@ -61623,9 +61527,7 @@
 /area/security/brig)
 "wTK" = (
 /turf/open/floor/plating,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "wUb" = (
 /obj/machinery/light{
 	dir = 4
@@ -62336,9 +62238,7 @@
 "xkq" = (
 /obj/structure/barricade/wooden/crude/snow,
 /turf/open/floor/plating,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "xkR" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on,
 /obj/effect/turf_decal/tile/green{
@@ -64596,9 +64496,7 @@
 "yhv" = (
 /obj/structure/railing/corner,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/maintenance/aft/secondary{
-	name = "Aft Command Alleyway"
-	})
+/area/maintenance/aft/secondary)
 "yhx" = (
 /turf/closed/mineral/random/snow/underground,
 /area/icemoon/surface/outdoors/unexplored/rivers/no_monsters)

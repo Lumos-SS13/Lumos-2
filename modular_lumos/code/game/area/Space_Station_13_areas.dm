@@ -126,3 +126,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	ambientsounds = MAINTENANCE
 	area_flags = BLOBS_ALLOWED | CULT_PERMITTED
 	sound_environment = SOUND_AREA_TUNNEL_ENCLOSED
+
+/area/science/xenoarch //general placeholder xenoarch area
+	name = "Xenoarchaeology"
+	icon_state = "purple"

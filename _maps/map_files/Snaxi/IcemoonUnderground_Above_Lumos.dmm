@@ -107,7 +107,7 @@
 	},
 /obj/machinery/light/small,
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "av" = (
 /obj/structure/rack,
 /obj/structure/lattice/catwalk,
@@ -269,7 +269,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "aW" = (
 /turf/closed/wall/rust,
 /area/maintenance/bar)
@@ -367,7 +367,7 @@
 	},
 /obj/effect/turf_decal/weather/snow/corner,
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "bn" = (
 /obj/structure/closet/secure_closet/atmospherics,
 /obj/machinery/light{
@@ -650,7 +650,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "cw" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
@@ -865,6 +865,12 @@
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors)
+"dc" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/white,
+/area/science/xenoarch)
 "dd" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -1007,7 +1013,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "dC" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -1173,7 +1179,7 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "ec" = (
 /obj/structure/table,
 /obj/item/clothing/glasses/science,
@@ -1693,7 +1699,7 @@
 /obj/machinery/power/apc/auto_name/south,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "fr" = (
 /obj/machinery/atmospherics/pipe/simple/green/visible{
 	dir = 4
@@ -1837,7 +1843,7 @@
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
 	},
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "fM" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
@@ -2538,7 +2544,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "hW" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible{
 	dir = 4
@@ -2568,7 +2574,7 @@
 /turf/open/floor/plating{
 	icon_state = "platingdmg1"
 	},
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "ib" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
 	dir = 4
@@ -3148,7 +3154,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "jP" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood,
@@ -3458,7 +3464,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "kW" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3,
 /turf/open/floor/plasteel/white,
@@ -3664,7 +3670,7 @@
 	pixel_y = 25
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "lH" = (
 /obj/machinery/button/door{
 	id = "testlab";
@@ -3890,7 +3896,7 @@
 	pixel_x = -32
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "mr" = (
 /obj/structure/stairs{
 	dir = 4;
@@ -3908,6 +3914,10 @@
 	},
 /turf/open/floor/plating/asteroid/snow/icemoon,
 /area/science/lowmaint)
+"mv" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/science/xenoarch)
 "mw" = (
 /obj/machinery/vending/sustenance,
 /turf/open/floor/plating,
@@ -5159,7 +5169,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/white,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "qs" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
@@ -5396,6 +5406,9 @@
 /obj/machinery/light/small,
 /turf/open/floor/wood,
 /area/maintenance/bar)
+"qZ" = (
+/turf/open/floor/plating,
+/area/science/xenoarch)
 "ra" = (
 /obj/structure/table_frame/wood,
 /obj/effect/landmark/xeno_spawn,
@@ -5557,7 +5570,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "rA" = (
 /obj/machinery/airalarm/directional/east,
 /turf/open/floor/plasteel/white,
@@ -5808,7 +5821,7 @@
 	icon_state = "1-4"
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "sv" = (
 /turf/closed/wall,
 /area/service/kitchen/coldroom)
@@ -5914,7 +5927,7 @@
 	pixel_y = 24
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "sN" = (
 /obj/structure/chair/office/dark{
 	dir = 4
@@ -6062,7 +6075,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "ti" = (
 /obj/structure/chair/comfy/brown{
 	dir = 1
@@ -6131,7 +6144,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "tz" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing{
@@ -6163,7 +6176,7 @@
 	pixel_x = 24
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "tF" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/wall,
@@ -6207,7 +6220,7 @@
 "tL" = (
 /obj/structure/chair/office/dark,
 /turf/open/floor/plasteel/white,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "tM" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable{
@@ -6321,7 +6334,7 @@
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/weather/snow/corner,
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "ui" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
@@ -7448,7 +7461,7 @@
 /obj/structure/railing,
 /obj/effect/turf_decal/tile/purple,
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "xI" = (
 /obj/machinery/camera{
 	c_tag = "Crew Area Hallway East";
@@ -7565,7 +7578,7 @@
 /obj/structure/railing/corner,
 /obj/effect/turf_decal/tile/purple,
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "yg" = (
 /obj/machinery/power/apc/highcap/ten_k{
 	areastring = "/area/teleporter";
@@ -8313,7 +8326,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "AG" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced{
@@ -8425,7 +8438,7 @@
 "Bd" = (
 /obj/effect/turf_decal/tile/purple,
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "Be" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
@@ -8459,7 +8472,7 @@
 	req_access_txt = "47"
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "Bk" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 4
@@ -8813,7 +8826,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "Cq" = (
 /obj/structure/cable{
 	icon_state = "4-10"
@@ -9045,7 +9058,7 @@
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/weather/snow/corner,
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "Dc" = (
 /turf/closed/indestructible/rock/snow/ice,
 /area/icemoon/surface/outdoors)
@@ -9157,7 +9170,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "Dw" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/structure/cable{
@@ -9389,7 +9402,7 @@
 	pixel_y = -26
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "Eg" = (
 /obj/machinery/door/airlock/maintenance{
 	req_access_txt = "47"
@@ -9523,7 +9536,7 @@
 /obj/item/relic,
 /obj/effect/turf_decal/tile/purple,
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "ED" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/xeno_spawn,
@@ -9867,6 +9880,9 @@
 	},
 /turf/open/floor/plasteel,
 /area/mine/production)
+"FG" = (
+/turf/open/floor/plasteel/dark,
+/area/science/xenoarch)
 "FH" = (
 /mob/living/simple_animal/hostile/asteroid/wolf{
 	name = "King"
@@ -9902,7 +9918,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "FP" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 4
@@ -10485,6 +10501,10 @@
 	},
 /turf/open/floor/plating,
 /area/commons/dorms/lower)
+"Hu" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/science/xenoarch)
 "Hv" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 4
@@ -10848,6 +10868,9 @@
 /obj/structure/railing,
 /turf/open/floor/plasteel,
 /area/mine/living_quarters)
+"Iw" = (
+/turf/closed/wall,
+/area/science/xenoarch)
 "Ix" = (
 /obj/machinery/door/airlock/research/glass{
 	name = "Test Chamber";
@@ -10865,7 +10888,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "Iz" = (
 /obj/structure/rack,
 /obj/structure/lattice/catwalk,
@@ -11089,7 +11112,7 @@
 	name = "department protolathe (Xenoarcheology)"
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "IZ" = (
 /obj/structure/tank_dispenser/oxygen,
 /obj/effect/turf_decal/tile/neutral{
@@ -11561,7 +11584,7 @@
 	pixel_y = -35
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "Ky" = (
 /obj/structure/railing/corner{
 	dir = 4
@@ -11824,7 +11847,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "Lo" = (
 /obj/machinery/teleport/station,
 /obj/effect/turf_decal/bot,
@@ -12274,7 +12297,7 @@
 /obj/structure/table,
 /obj/effect/turf_decal/tile/purple,
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "MC" = (
 /obj/machinery/door/airlock/research{
 	name = "Xenoarchaeology Lab";
@@ -12288,7 +12311,7 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "MD" = (
 /obj/structure/railing{
 	dir = 1
@@ -12328,7 +12351,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "MK" = (
 /obj/machinery/shower{
 	dir = 8
@@ -12617,7 +12640,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "NH" = (
 /obj/structure/sign/poster/contraband/random{
 	pixel_x = -30
@@ -13086,7 +13109,7 @@
 	name = "south facing firelock"
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "Pc" = (
 /turf/open/space,
 /turf/open/floor/plating,
@@ -13139,7 +13162,7 @@
 	name = "south facing firelock"
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "Pi" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /turf/open/floor/engine,
@@ -13222,7 +13245,7 @@
 	electrochromatic_id = "xenoarch"
 	},
 /turf/open/floor/plating,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "Pw" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -13385,7 +13408,7 @@
 	dir = 5
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "Qa" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
 	dir = 4
@@ -14113,7 +14136,7 @@
 	pixel_y = 32
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "Ss" = (
 /turf/open/floor/plating{
 	icon_state = "panelscorched"
@@ -14307,7 +14330,7 @@
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
 	},
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "SV" = (
 /obj/machinery/camera{
 	c_tag = "Dormitories";
@@ -14786,6 +14809,9 @@
 /obj/item/shard,
 /turf/open/floor/plating,
 /area/icemoon/surface/outdoors)
+"UC" = (
+/turf/open/floor/plasteel/white,
+/area/science/xenoarch)
 "UD" = (
 /obj/effect/spawner/lootdrop/maintenance{
 	lootcount = 2;
@@ -15761,7 +15787,7 @@
 /area/security/detectives_office)
 "Xk" = (
 /turf/closed/indestructible/rock/snow/ice,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "Xl" = (
 /obj/structure/chair/sofa/left,
 /obj/effect/turf_decal/tile/bar{
@@ -15996,7 +16022,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/mine/living_quarters)
+/area/science/xenoarch)
 "XZ" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -50771,11 +50797,11 @@ nd
 yb
 xo
 hI
-nd
+Iw
 Pv
 Pv
-nd
-nd
+Iw
+Iw
 EB
 HW
 ET
@@ -51028,11 +51054,11 @@ Om
 oO
 Ld
 wZ
-nd
+Iw
 lG
 Iy
 mq
-nd
+Iw
 EG
 HX
 LU
@@ -51542,9 +51568,9 @@ xu
 UE
 UE
 Nq
-nd
+Iw
 tx
-wq
+UC
 Bd
 Pv
 xI
@@ -51794,8 +51820,8 @@ ah
 ah
 VE
 OT
-nd
-nd
+Iw
+Iw
 Xk
 Xk
 Xk
@@ -51803,7 +51829,7 @@ Xk
 dB
 yf
 Ee
-nd
+Iw
 Av
 Ho
 sa
@@ -52051,16 +52077,16 @@ ah
 ah
 VE
 vs
-nd
+Iw
 NF
 rz
-nd
+Iw
 aU
 cv
 kU
 xH
-oQ
-nd
+qZ
+Iw
 Tm
 HY
 Mt
@@ -52311,14 +52337,14 @@ OT
 Pv
 Du
 au
-nd
+Iw
 Sr
-wq
-go
+UC
+dc
 ea
 fq
-nd
-nd
+Iw
+Iw
 Iq
 op
 nd
@@ -52570,12 +52596,12 @@ FO
 bm
 Xk
 AD
-wq
-wq
+UC
+UC
 xH
 ia
 Xk
-nd
+Iw
 Iv
 Eh
 nd
@@ -52822,17 +52848,17 @@ ah
 ah
 VE
 OT
-nd
+Iw
 Lm
 bm
 Xk
 hV
-PT
-wq
+FG
+UC
 uh
 Xk
 Xk
-op
+mv
 Gy
 ji
 nd
@@ -53079,15 +53105,15 @@ ah
 ah
 VE
 vs
-nd
-nd
+Iw
+Iw
 Bj
-nd
-nd
+Iw
+Iw
 sM
-wq
+UC
 Kx
-nd
+Iw
 Xk
 Xk
 hL
@@ -53595,15 +53621,15 @@ VE
 vs
 Xk
 PZ
-PT
-wq
+FG
+UC
 Pb
 XY
 tD
 EC
 SU
 Xk
-op
+mv
 Gy
 Ec
 op
@@ -53855,12 +53881,12 @@ Xk
 jO
 th
 IY
-nd
-nd
-nd
-ji
+Iw
+Iw
+Iw
+Hu
 fL
-op
+mv
 Gy
 ji
 op
@@ -54109,15 +54135,15 @@ VE
 vs
 vI
 Xk
-nd
+Iw
 Pv
-nd
-nd
+Iw
+Iw
 vI
-nd
-nd
-nd
-nd
+Iw
+Iw
+Iw
+Iw
 Gy
 WR
 nd

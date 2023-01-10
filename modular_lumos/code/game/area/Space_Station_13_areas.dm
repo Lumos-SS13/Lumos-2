@@ -95,6 +95,10 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Upper Bridge Deck"
 	icon_state = "bridgeupper"
 
+/area/commons/fitness/pool/oobcold //area for a hidden unreachable controller
+	name = "Pool Area"
+	icon_state = "pool"
+
 /area/command/garage
 	name = "Command Garage"
 	icon_state = "blue"

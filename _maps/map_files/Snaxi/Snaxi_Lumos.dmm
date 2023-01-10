@@ -456,9 +456,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "afn" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -485,15 +483,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/port/fore)
-"afF" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/plasteel,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
 "afU" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible,
 /turf/open/floor/plasteel/dark,
@@ -2292,9 +2281,7 @@
 	dir = 6
 	},
 /turf/open/floor/plasteel,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "aBq" = (
 /obj/machinery/door/airlock/external,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
@@ -4571,17 +4558,6 @@
 /obj/structure/chair/sofa,
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
-"bmr" = (
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
 "bmP" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden{
 	dir = 4
@@ -5240,9 +5216,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /turf/open/floor/plasteel/stairs/left,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "bwZ" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -9746,9 +9720,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/dark,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "cDF" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -10253,9 +10225,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /turf/open/floor/plasteel,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "cNE" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
 	dir = 8
@@ -10265,17 +10235,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/central)
-"cOd" = (
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
-/obj/machinery/power/apc/auto_name/east,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
-/turf/open/floor/plasteel,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
 "cOl" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -12359,9 +12318,7 @@
 	dir = 6
 	},
 /turf/open/floor/plasteel,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "dAV" = (
 /turf/closed/wall/r_wall,
 /area/ai_monitored/turret_protected/ai_upload_foyer)
@@ -14083,9 +14040,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /turf/open/floor/plasteel,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "enq" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 8;
@@ -15091,14 +15046,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
-"eIL" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
 "eIT" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 4
@@ -15997,11 +15944,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/starboard)
-"eYW" = (
-/turf/open/floor/plating,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
 "eZe" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -16349,9 +16291,7 @@
 /obj/structure/closet/crate/internals,
 /turf/open/space,
 /turf/open/floor/plating,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "fgM" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -19024,9 +18964,7 @@
 "gmz" = (
 /turf/open/space,
 /turf/open/floor/plating,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "gmA" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 4
@@ -19322,14 +19260,6 @@
 	},
 /turf/open/floor/wood,
 /area/command/meeting_room)
-"gsw" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plasteel,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
 "gsQ" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer1,
 /turf/open/floor/plasteel,
@@ -19557,9 +19487,7 @@
 	},
 /obj/structure/window/reinforced,
 /turf/open/floor/grass,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "gyE" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/visible{
 	dir = 4
@@ -22593,9 +22521,7 @@
 "hMf" = (
 /obj/effect/decal/cleanable/oil,
 /turf/open/floor/plasteel,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "hMD" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -23461,9 +23387,7 @@
 	dir = 4
 	},
 /turf/open/floor/grass,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "icx" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 10
@@ -23669,9 +23593,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "igO" = (
 /obj/structure/lattice/catwalk,
 /obj/machinery/atmospherics/components/unary/thermomachine/heater,
@@ -25215,9 +25137,7 @@
 	},
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "iJK" = (
 /obj/machinery/light{
 	dir = 1
@@ -26567,9 +26487,7 @@
 	dir = 9
 	},
 /turf/open/floor/plasteel,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "jmr" = (
 /obj/structure/railing,
 /obj/machinery/door/firedoor/border_only{
@@ -27421,9 +27339,7 @@
 /area/icemoon/surface/outdoors)
 "jEn" = (
 /turf/open/floor/plasteel/stairs/right,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "jEz" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 6
@@ -28624,11 +28540,6 @@
 	},
 /turf/open/floor/engine/air,
 /area/engineering/atmos)
-"kba" = (
-/turf/open/floor/plasteel,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
 "kbr" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -30823,9 +30734,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "kYE" = (
 /obj/machinery/limbgrower,
 /turf/open/floor/plasteel/freezer,
@@ -34121,9 +34030,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/dark,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "msA" = (
 /obj/machinery/holopad,
 /turf/open/floor/wood,
@@ -35161,9 +35068,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /turf/open/floor/plasteel,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "mNS" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Gen-Pop Access";
@@ -37551,12 +37456,6 @@
 /obj/structure/chair/sofa/left,
 /turf/open/floor/plasteel/grimy,
 /area/service/chapel/main/monastery)
-"nKr" = (
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/plasteel,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
 "nKO" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -37619,13 +37518,6 @@
 "nLS" = (
 /turf/closed/wall,
 /area/maintenance/port/central)
-"nLY" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
-/turf/open/floor/plasteel,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
 "nMf" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -39375,12 +39267,6 @@
 	},
 /turf/open/floor/circuit,
 /area/ai_monitored/turret_protected/ai)
-"ooY" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
 "opc" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden,
 /obj/structure/chair/office/light,
@@ -42932,11 +42818,6 @@
 	},
 /turf/open/floor/plating/asteroid/snow/icemoon,
 /area/icemoon/surface/outdoors)
-"pHf" = (
-/turf/open/floor/plasteel/dark,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
 "pHi" = (
 /obj/machinery/atmospherics/pipe/simple/orange/visible,
 /obj/machinery/meter,
@@ -44123,15 +44004,6 @@
 	},
 /turf/open/floor/plasteel/dark/corner,
 /area/hallway/primary/starboard)
-"qeF" = (
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/plasteel,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
 "qeG" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/eastright{
@@ -44494,9 +44366,7 @@
 	icon_state = "1-8"
 	},
 /turf/open/floor/plasteel,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "qkU" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -47529,9 +47399,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /turf/open/floor/plasteel,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "rrd" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -47811,11 +47679,6 @@
 	},
 /turf/open/floor/carpet,
 /area/service/library)
-"rxv" = (
-/turf/closed/wall,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
 "rxI" = (
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -50273,9 +50136,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/dark,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "syN" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -50753,18 +50614,6 @@
 /obj/item/storage/toolbox/emergency,
 /turf/open/floor/plasteel/dark,
 /area/medical/paramedic)
-"sJl" = (
-/obj/machinery/door/airlock/public/glass{
-	name = "Snow Airlock"
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 4;
-	name = "east facing firelock"
-	},
-/turf/open/floor/plasteel/dark,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
 "sJs" = (
 /obj/machinery/light/small,
 /turf/open/floor/plasteel/dark,
@@ -53245,9 +53094,7 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "tFr" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -54708,9 +54555,7 @@
 /obj/machinery/portable_atmospherics/canister/air,
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "ujD" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
@@ -55619,9 +55464,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "uDA" = (
 /obj/structure/railing{
 	dir = 5
@@ -56938,9 +56781,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "vcY" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -57202,9 +57043,7 @@
 "vhv" = (
 /obj/machinery/door/airlock/maintenance,
 /turf/open/floor/plating,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "vhO" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -57308,9 +57147,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/dark,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "vjx" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
@@ -58272,9 +58109,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /turf/open/floor/plasteel,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "vBe" = (
 /obj/machinery/light/floor,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
@@ -59789,20 +59624,6 @@
 	},
 /turf/open/floor/plating,
 /area/service/chapel/dock)
-"wee" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
 "wel" = (
 /turf/open/openspace/icemoon,
 /area/engineering/atmos)
@@ -61426,9 +61247,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "wMr" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -61480,9 +61299,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "wMW" = (
 /obj/machinery/door/airlock/maintenance,
 /obj/structure/disposalpipe/segment,
@@ -61933,9 +61750,7 @@
 "wWU" = (
 /obj/machinery/door/airlock/external,
 /turf/open/floor/plasteel/dark,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "wXe" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -64706,9 +64521,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/hallway/primary/starboard{
-	name = "Starboard Secondary Hallway"
-	})
+/area/hallway/primary/starboard)
 "yge" = (
 /obj/structure/cable{
 	icon_state = "2-4"
@@ -108130,13 +107943,13 @@ rix
 aoQ
 kVF
 ydp
-rxv
+pFR
 wWU
 syL
-rxv
-rxv
-rxv
-rxv
+pFR
+pFR
+pFR
+pFR
 kVF
 uCs
 goO
@@ -108387,14 +108200,14 @@ qpS
 vky
 kVF
 ydp
-rxv
-eIL
+pFR
+vtG
 msp
-rxv
+pFR
 fgL
 ujy
-rxv
-rxv
+pFR
+pFR
 qri
 goO
 kVF
@@ -108644,14 +108457,14 @@ ufW
 uIS
 kVF
 avT
-rxv
-pHf
+pFR
+oaF
 cDE
 vhv
 hMf
-eYW
-eYW
-rxv
+tIe
+tIe
+pFR
 kVF
 tYL
 cKf
@@ -108902,13 +108715,13 @@ vhU
 kVF
 kTj
 kVF
-sJl
+oYw
 vjv
-rxv
-rxv
-rxv
+pFR
+pFR
+pFR
 gmz
-rxv
+pFR
 ncY
 rxb
 cKf
@@ -109159,8 +108972,8 @@ bpi
 tfc
 vky
 kVF
-kba
-gsw
+pqj
+vlz
 naT
 goO
 vky
@@ -109416,8 +109229,8 @@ gVo
 iLv
 vky
 kVF
-kba
-gsw
+pqj
+vlz
 aKZ
 aKZ
 aKZ
@@ -109930,8 +109743,8 @@ gVo
 iLv
 voR
 kVF
-kba
-gsw
+pqj
+vlz
 sTf
 tkt
 isD
@@ -110187,8 +110000,8 @@ nrn
 kVF
 voR
 kVF
-kba
-gsw
+pqj
+vlz
 sTf
 isD
 xfF
@@ -110701,8 +110514,8 @@ rAR
 hbE
 ipH
 kVF
-wee
-gsw
+maG
+vlz
 sTf
 isD
 aXj
@@ -110958,8 +110771,8 @@ rWX
 kVF
 kVF
 kVF
-wee
-gsw
+maG
+vlz
 sTf
 bGQ
 aXj
@@ -111215,8 +111028,8 @@ sZK
 kVF
 ibZ
 gyz
-wee
-gsw
+maG
+vlz
 aKZ
 boG
 fqT
@@ -111460,17 +111273,17 @@ kVF
 kVF
 kVF
 kVF
-kba
+pqj
 dAO
-nKr
+kwl
 iJI
 yfX
-nKr
-nKr
-nKr
+kwl
+kwl
+kwl
 afh
-qeF
-afF
+kwl
+iqH
 igN
 wMU
 qkQ
@@ -111719,18 +111532,18 @@ cNx
 cNx
 cNx
 mNQ
-nLY
-nLY
+rGy
+rGy
 vcQ
-nLY
-nLY
-nLY
-bmr
-cOd
-nLY
+rGy
+rGy
+rGy
+fXS
+rGy
+rGy
 rqZ
 jmg
-kba
+pqj
 aKZ
 isD
 szl
@@ -111972,22 +111785,22 @@ aDT
 wMq
 wMq
 jEn
-kba
-kba
-kba
-kba
-kba
-rxv
-rxv
-ooY
-ooY
-ooY
-rxv
-rxv
-ooY
+pqj
+pqj
+pqj
+pqj
+pqj
+pFR
+pFR
+rQs
+rQs
+rQs
+pFR
+pFR
+rQs
 kYB
-ooY
-rxv
+rQs
+pFR
 aKZ
 aKZ
 sTf
@@ -112226,15 +112039,15 @@ tng
 fHK
 sPR
 fHK
-ooY
-ooY
-rxv
-rxv
-ooY
-ooY
-ooY
-rxv
-rxv
+rQs
+rQs
+pFR
+pFR
+rQs
+rQs
+rQs
+pFR
+pFR
 xUL
 xUL
 xUL

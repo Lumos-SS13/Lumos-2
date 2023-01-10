@@ -155,9 +155,7 @@
 /area/hallway/primary/starboard)
 "abU" = (
 /turf/closed/wall,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "abX" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -202,9 +200,7 @@
 	temperature = 2
 	},
 /turf/open/indestructible/binary,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "acy" = (
 /obj/machinery/light_switch{
 	pixel_x = -27;
@@ -225,9 +221,7 @@
 	name = "Pool Shutters"
 	},
 /turf/open/floor/plating,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "adf" = (
 /obj/machinery/flasher/portable,
 /obj/effect/turf_decal/delivery,
@@ -428,9 +422,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "aeG" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
 	dir = 4
@@ -1797,9 +1789,7 @@
 /obj/structure/table/glass,
 /obj/item/storage/firstaid/regular,
 /turf/open/floor/plasteel,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "ayd" = (
 /obj/structure/fence/post{
 	dir = 4
@@ -2388,9 +2378,7 @@
 /obj/structure/table/glass,
 /obj/item/paicard,
 /turf/open/floor/plasteel,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "aDc" = (
 /obj/effect/landmark/start/scientist,
 /obj/effect/turf_decal/stripes/line,
@@ -2484,9 +2472,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "aDp" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -3855,9 +3841,7 @@
 /obj/item/toy/poolnoodle/yellow,
 /obj/item/toy/poolnoodle/red,
 /turf/open/floor/plasteel,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "aUU" = (
 /turf/open/floor/plasteel/showroomfloor,
 /area/security/brig)
@@ -7693,9 +7677,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /turf/open/floor/plasteel,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "bUP" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -9638,9 +9620,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "cCb" = (
 /obj/machinery/atmospherics/pipe/simple/orange/visible,
 /obj/machinery/portable_atmospherics/canister/carbon_dioxide,
@@ -11643,9 +11623,7 @@
 	dir = 9
 	},
 /turf/open/floor/plasteel,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "doD" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -14578,9 +14556,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /turf/open/floor/plasteel,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "eAF" = (
 /obj/effect/landmark/event_spawn,
 /turf/open/floor/wood,
@@ -15072,9 +15048,7 @@
 	icon = 'icons/turf/floors/snow_turf.dmi';
 	icon_state = "smooth"
 	},
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "eJY" = (
 /obj/machinery/light_switch{
 	pixel_x = 9;
@@ -19725,9 +19699,7 @@
 	pixel_y = -24
 	},
 /turf/open/pool,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "gFb" = (
 /obj/machinery/requests_console{
 	department = "Law office";
@@ -22084,9 +22056,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "hDU" = (
 /obj/machinery/atmospherics/components/binary/pump/on{
 	dir = 1;
@@ -23254,9 +23224,7 @@
 	plane = -4
 	},
 /turf/open/floor/plasteel,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "iad" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel/dark,
@@ -25211,9 +25179,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "iMc" = (
 /turf/open/floor/plasteel/grimy,
 /area/service/chapel/office)
@@ -27579,9 +27545,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "jJb" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/visible,
 /turf/closed/wall/r_wall,
@@ -29544,9 +29508,7 @@
 	dir = 6
 	},
 /turf/open/floor/plasteel,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "kxw" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk,
@@ -29884,9 +29846,7 @@
 	icon = 'icons/turf/floors/snow_turf.dmi';
 	icon_state = "smooth"
 	},
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "kGH" = (
 /obj/structure/railing/corner{
 	dir = 8
@@ -32599,9 +32559,7 @@
 	icon = 'icons/turf/floors/snow_turf.dmi';
 	icon_state = "smooth"
 	},
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "lQp" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -34077,9 +34035,7 @@
 /area/service/lawoffice)
 "muX" = (
 /turf/closed/indestructible/rock/snow/ice,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "mvA" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -35287,9 +35243,7 @@
 	c_tag = "Pool"
 	},
 /turf/open/floor/plasteel,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "mSN" = (
 /obj/machinery/atmospherics/components/binary/valve/digital{
 	dir = 4
@@ -36819,9 +36773,7 @@
 	pixel_y = 24
 	},
 /turf/open/pool,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "nAw" = (
 /obj/structure/barricade/wooden/snowed,
 /obj/effect/spawner/structure/window/ice,
@@ -39409,9 +39361,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "ouB" = (
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/tile/purple{
@@ -41442,9 +41392,7 @@
 	icon = 'icons/turf/floors/snow_turf.dmi';
 	icon_state = "smooth"
 	},
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "pkC" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/closet/crate,
@@ -42927,9 +42875,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "pLd" = (
 /obj/machinery/airalarm{
 	dir = 1;
@@ -44788,9 +44734,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "qtH" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
 	dir = 9
@@ -44914,9 +44858,7 @@
 	},
 /obj/machinery/light,
 /turf/open/floor/plasteel,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "qxk" = (
 /obj/machinery/airalarm{
 	dir = 1;
@@ -46064,9 +46006,7 @@
 /obj/item/toy/poolnoodle/yellow,
 /obj/item/toy/poolnoodle/blue,
 /turf/open/floor/plasteel,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "qTO" = (
 /obj/structure/disposalpipe/segment{
 	dir = 9
@@ -47394,9 +47334,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "rtd" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 4
@@ -49347,9 +49285,7 @@
 	icon = 'icons/turf/floors/snow_turf.dmi';
 	icon_state = "smooth"
 	},
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "skE" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
@@ -49361,9 +49297,7 @@
 	icon = 'icons/turf/floors/snow_turf.dmi';
 	icon_state = "smooth"
 	},
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "skI" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Engineering Maintenance";
@@ -52010,9 +51944,7 @@
 	dir = 5
 	},
 /turf/open/floor/plasteel,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "tnd" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /turf/closed/wall,
@@ -53459,9 +53391,7 @@
 /area/medical/surgery)
 "tOz" = (
 /turf/open/floor/plasteel,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "tOE" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
@@ -53723,9 +53653,7 @@
 	icon = 'icons/turf/floors/snow_turf.dmi';
 	icon_state = "smooth"
 	},
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "tTW" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -55338,9 +55266,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "uCo" = (
 /obj/structure/railing/corner{
 	dir = 4
@@ -58759,9 +58685,7 @@
 /area/engineering/storage)
 "vQk" = (
 /turf/open/pool,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "vQm" = (
 /obj/structure/closet/firecloset,
 /obj/effect/spawner/lootdrop/maintenance,
@@ -60421,9 +60345,7 @@
 	dir = 9
 	},
 /turf/open/floor/plasteel,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "wxT" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -62429,9 +62351,7 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3,
 /turf/open/floor/plasteel,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "xou" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on,
 /obj/machinery/computer/shuttle/snow_taxi,
@@ -62546,9 +62466,7 @@
 	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3,
 /turf/open/floor/plasteel,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "xrM" = (
 /obj/structure/railing{
 	dir = 4
@@ -62594,9 +62512,7 @@
 "xsc" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /turf/open/floor/plasteel,
-/area/commons/fitness/pool{
-	name = "Ice Bath Area"
-	})
+/area/commons/fitness/pool/oobcold)
 "xsj" = (
 /obj/structure/closet/crate,
 /obj/item/stack/sheet/mineral/wood/fifty{

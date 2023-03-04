@@ -11,7 +11,7 @@ jobs:
     name: Update the TGS DMAPI
     steps:
     - name: Clone
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3.3.0
 
     - name: Branch
       run: |
@@ -35,7 +35,7 @@ jobs:
         git push -f -u origin tgs-dmapi-update
 
     - name: Create Pull Request
-      uses: repo-sync/pull-request@v2
+      uses: repo-sync/pull-request@v2.12.1
       if: ${{ success() }}
       with:
         source_branch: "tgs-dmapi-update"

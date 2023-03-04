@@ -5,6 +5,8 @@
 	icon = 'icons/obj/hydroponics/equipment.dmi'
 	icon_state = "waterbackpack"
 	item_state = "waterbackpack"
+	lefthand_file = 'icons/mob/inhands/equipment/backpack_lefthand.dmi'
+	righthand_file = 'icons/mob/inhands/equipment/backpack_righthand.dmi'
 	w_class = WEIGHT_CLASS_BULKY
 	slot_flags = ITEM_SLOT_BACK
 	slowdown = 1
@@ -143,6 +145,7 @@
 /obj/item/watertank/janitor
 	name = "backpack water tank"
 	desc = "A janitorial watertank backpack with nozzle to clean dirt and graffiti."
+	icon = 'icons/obj/hydroponics/equipment.dmi'
 	icon_state = "waterbackpackjani"
 	item_state = "waterbackpackjani"
 	custom_price = PRICE_ALMOST_ONE_GRAND
@@ -178,6 +181,7 @@
 /obj/item/watertank/atmos
 	name = "backpack firefighter tank"
 	desc = "A refrigerated and pressurized backpack tank with extinguisher nozzle, intended to fight fires. Swaps between extinguisher, resin launcher and a smaller scale resin foamer."
+	icon = 'icons/obj/hydroponics/equipment.dmi'
 	item_state = "waterbackpackatmos"
 	icon_state = "waterbackpackatmos"
 	volume = 200
@@ -432,10 +436,11 @@
 
 //Operator backpack spray
 /obj/item/watertank/op
-	name = "backpack water tank"
+	name = "backpack chemical tank"
 	desc = "A New Russian backpack spray for systematic cleansing of carbon lifeforms."
-	icon_state = "waterbackpackjani"
-	item_state = "waterbackpackjani"
+	icon = 'icons/obj/hydroponics/equipment.dmi'
+	icon_state = "waterbackpackop"
+	item_state = "waterbackpackop"
 	w_class = WEIGHT_CLASS_NORMAL
 	volume = 2000
 	slowdown = 0
@@ -453,8 +458,8 @@
 /obj/item/reagent_containers/spray/mister/op
 	desc = "A mister nozzle attached to several extended water tanks. It suspiciously has a compressor in the system and is labelled entirely in New Cyrillic."
 	icon = 'icons/obj/hydroponics/equipment.dmi'
-	icon_state = "misterjani"
-	item_state = "misterjani"
+	icon_state = "misterop"
+	item_state = "misterop"
 	lefthand_file = 'icons/mob/inhands/equipment/mister_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/mister_righthand.dmi'
 	w_class = WEIGHT_CLASS_BULKY

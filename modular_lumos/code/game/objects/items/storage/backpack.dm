@@ -65,11 +65,43 @@
 	icon_state = "duffel-sci"
 	item_state = "duffel-sci"
 
-/obj/item/storage/backpack/duffelbag/sci/surgery
-	name = "surgical duffel bag"
-	desc = "A large duffel bag for holding extra science supplies - this one seems to be designed for holding surgical tools."
+//Lumos change
 
-/obj/item/storage/backpack/duffelbag/sci/surgery/PopulateContents()
+/obj/item/storage/backpack/science/robo
+	name = "robotics backpack"
+	desc = "A sleek, industrial-strength backpack issued to robotics personnel. Smells faintly of oil."
+	icon = 'modular_lumos/icons/obj/storage.dmi'
+	mob_overlay_icon = 'modular_lumos/icons/mob/clothing/back.dmi'
+	lefthand_file = 'modular_lumos/icons/mob/inhands/equipment/backpack_lefthand.dmi'
+	righthand_file = 'modular_lumos/icons/mob/inhands/equipment/backpack_righthand.dmi'
+	icon_state = "robopack"
+	item_state = "robopack"
+
+/obj/item/storage/backpack/satchel/tox/robo
+	name = "robotics satchel"
+	desc = "A sleek, industrial-strength satchel issued to robotics personnel. Smells faintly of oil."
+	icon = 'modular_lumos/icons/obj/storage.dmi'
+	mob_overlay_icon = 'modular_lumos/icons/mob/clothing/back.dmi'
+	lefthand_file = 'modular_lumos/icons/mob/inhands/equipment/backpack_lefthand.dmi'
+	righthand_file = 'modular_lumos/icons/mob/inhands/equipment/backpack_righthand.dmi'
+	icon_state = "satchel-robo"
+	item_state = "satchel-robo"
+
+/obj/item/storage/backpack/duffelbag/robo
+	name = "robotics duffel bag"
+	desc = "A sleek, industrial-strength duffel bag issued to robotics personnel. Smells faintly of oil."
+	icon = 'modular_lumos/icons/obj/storage.dmi'
+	mob_overlay_icon = 'modular_lumos/icons/mob/clothing/back.dmi'
+	lefthand_file = 'modular_lumos/icons/mob/inhands/equipment/backpack_lefthand.dmi'
+	righthand_file = 'modular_lumos/icons/mob/inhands/equipment/backpack_righthand.dmi'
+	icon_state = "duffel-robo"
+	item_state = "duffel-robo"
+
+/obj/item/storage/backpack/duffelbag/robo/surgery
+	name = "surgical duffel bag"
+	desc = "A sleek, industrial-strength duffel bag issued to robotics personnel - this one seems to be designed for holding surgical tools."
+
+/obj/item/storage/backpack/duffelbag/robo/surgery/PopulateContents()
 	new /obj/item/scalpel(src)
 	new /obj/item/hemostat(src)
 	new /obj/item/retractor(src)
@@ -82,45 +114,42 @@
 	new /obj/item/reagent_containers/medspray/sterilizine(src)
 	new /obj/item/razor(src)
 
-/obj/item/storage/backpack/duffelbag/sci/nanites
-	name = "Nanite duffel bag"
-	desc = "A large duffel bag for holding extra science supplies - this one seems to be designed for holding nanite tools."
+/obj/item/storage/backpack/duffelbag/botany
+	name = "hydroponics duffel bag"
+	desc = "A large duffel bag for holding extra gardening tools."
+	lefthand_file = 'modular_lumos/icons/mob/inhands/equipment/backpack_lefthand.dmi'
+	righthand_file = 'modular_lumos/icons/mob/inhands/equipment/backpack_righthand.dmi'
+	icon_state = "duffel-bot"
+	item_state = "duffel-bot"
 
-/obj/item/storage/backpack/duffelbag/sci/nanites/PopulateContents()
-	new /obj/item/nanite_remote(src)
-	new /obj/item/nanite_remote(src)
-	new /obj/item/nanite_scanner(src)
-	new /obj/item/nanite_scanner(src)
-	new /obj/item/storage/box/disks_nanite(src)
-	new /obj/item/clothing/glasses/hud/diagnostic(src)
-	new /obj/item/clothing/glasses/hud/diagnostic(src)
+/obj/item/storage/backpack/duffelbag/explorer
+	name = "explorers duffel bag"
+	desc = "A large duffel bag for holding extra exotic treasures."
+	lefthand_file = 'modular_lumos/icons/mob/inhands/equipment/backpack_lefthand.dmi'
+	righthand_file = 'modular_lumos/icons/mob/inhands/equipment/backpack_righthand.dmi'
+	icon_state = "duffel-explorer"
+	item_state = "duffel-explorer"
 
-/obj/item/storage/backpack/duffelbag/sci/circuits
-	name = "Circuit duffel bag"
-	desc = "A large duffel bag for holding extra science supplies - this one seems to be designed for holding circuit tools."
+/obj/item/storage/backpack/duffelbag/chemistry
+	name = "chemistry duffel bag"
+	desc = "A large duffel bag for holding extra chemical substances."
+	lefthand_file = 'modular_lumos/icons/mob/inhands/equipment/backpack_lefthand.dmi'
+	righthand_file = 'modular_lumos/icons/mob/inhands/equipment/backpack_righthand.dmi'
+	icon_state = "duffel-chem"
+	item_state = "duffel-chem"
 
-/obj/item/storage/backpack/duffelbag/sci/circuits/PopulateContents()
-	new /obj/item/integrated_electronics/analyzer(src)
-	new /obj/item/integrated_electronics/wirer(src)
-	new /obj/item/integrated_electronics/debugger(src)
-	new /obj/item/stack/sheet/glass/fifty(src)
-	new /obj/item/stack/sheet/metal/ten(src)
-	new /obj/item/stock_parts/cell/high(src)
-	new /obj/item/screwdriver(src)
-	new /obj/item/multitool(src)
+/obj/item/storage/backpack/duffelbag/virology
+	name = "virology duffel bag"
+	desc = "A large duffel bag for holding extra viral bottles."
+	lefthand_file = 'modular_lumos/icons/mob/inhands/equipment/backpack_lefthand.dmi'
+	righthand_file = 'modular_lumos/icons/mob/inhands/equipment/backpack_righthand.dmi'
+	icon_state = "duffel-viro"
+	item_state = "duffel-viro"
 
-/obj/item/storage/backpack/duffelbag/sci/tools
-	name = "Tools duffel bag"
-	desc = "A large duffel bag for holding extra science supplies - this one seems to be designed for holding tools."
-
-/obj/item/storage/backpack/duffelbag/sci/tools/PopulateContents()
-
-	new /obj/item/wrench(src)
-	new /obj/item/crowbar(src)
-	new /obj/item/weldingtool(src)
-	new /obj/item/multitool(src)
-	new /obj/item/screwdriver(src)
-	new /obj/item/wirecutters(src)
-	new /obj/item/clothing/glasses/welding(src)
-	new /obj/item/stock_parts/cell/high(src)
-	new /obj/item/borg/upgrade/restart(src)
+/obj/item/storage/backpack/duffelbag/genetics
+	name = "geneticist's duffel bag"
+	desc = "A large duffel bag for holding extra genetic mutations."
+	lefthand_file = 'modular_lumos/icons/mob/inhands/equipment/backpack_lefthand.dmi'
+	righthand_file = 'modular_lumos/icons/mob/inhands/equipment/backpack_righthand.dmi'
+	icon_state = "duffel-gene"
+	item_state = "duffel-gene"

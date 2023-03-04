@@ -119,7 +119,7 @@
 	name = "trophy rack"
 	desc = "It's useful for both carrying extra gear and proudly declaring your insanity."
 	icon_state = "cultpack"
-	item_state = "backpack"
+	item_state = "cultpack"
 
 /obj/item/storage/backpack/clown
 	name = "Giggles von Honkerton"
@@ -127,23 +127,61 @@
 	icon_state = "clownpack"
 	item_state = "clownpack"
 
-/obj/item/storage/backpack/explorer
-	name = "explorer bag"
-	desc = "A robust backpack for stashing your loot."
-	icon_state = "explorerpack"
-	item_state = "explorerpack"
-
 /obj/item/storage/backpack/mime
 	name = "Parcel Parceaux"
 	desc = "A silent backpack made for those silent workers. Silence Co."
 	icon_state = "mimepack"
 	item_state = "mimepack"
 
+/obj/item/storage/backpack/botany
+	name = "botany backpack"
+	desc = "It's a backpack made of all-natural fibers."
+	icon_state = "botpack"
+	item_state = "botpack"
+
+/obj/item/storage/backpack/explorer
+	name = "explorer bag"
+	desc = "A robust backpack for stashing your loot."
+	icon_state = "explorerpack"
+	item_state = "explorerpack"
+
+/obj/item/storage/backpack/industrial
+	name = "industrial backpack"
+	desc = "It's a tough backpack for the daily grind of station life."
+	icon_state = "engiepack"
+	item_state = "engiepack"
+	resistance_flags = FIRE_PROOF
+	rad_flags = RAD_PROTECT_CONTENTS | RAD_NO_CONTAMINATE
+
 /obj/item/storage/backpack/medic
 	name = "medical backpack"
 	desc = "It's a backpack especially designed for use in a sterile environment."
 	icon_state = "medicalpack"
 	item_state = "medicalpack"
+
+/obj/item/storage/backpack/chemistry
+	name = "chemistry backpack"
+	desc = "A backpack specially designed to repel stains and hazardous liquids."
+	icon_state = "chempack"
+	item_state = "chempack"
+
+/obj/item/storage/backpack/virology
+	name = "virology backpack"
+	desc = "A backpack made of hypo-allergenic fibers. It's designed to help prevent the spread of disease. Smells like monkey."
+	icon_state = "viropack"
+	item_state = "viropack"
+
+/obj/item/storage/backpack/genetics
+	name = "genetics backpack"
+	desc = "A bag designed to be super tough, just in case someone hulks out on you."
+	icon_state = "genepack"
+	item_state = "genepack"
+
+/obj/item/storage/backpack/science
+	name = "science backpack"
+	desc = "A specially designed backpack. It's fire resistant and smells vaguely of plasma."
+	icon_state = "scipack"
+	item_state = "scipack"
 
 /obj/item/storage/backpack/security
 	name = "security backpack"
@@ -159,44 +197,6 @@
 	resistance_flags = FIRE_PROOF
 	rad_flags = RAD_PROTECT_CONTENTS | RAD_NO_CONTAMINATE
 
-/obj/item/storage/backpack/industrial
-	name = "industrial backpack"
-	desc = "It's a tough backpack for the daily grind of station life."
-	icon_state = "engiepack"
-	item_state = "engiepack"
-	resistance_flags = FIRE_PROOF
-	rad_flags = RAD_PROTECT_CONTENTS | RAD_NO_CONTAMINATE
-
-/obj/item/storage/backpack/botany
-	name = "botany backpack"
-	desc = "It's a backpack made of all-natural fibers."
-	icon_state = "botpack"
-	item_state = "botpack"
-
-/obj/item/storage/backpack/chemistry
-	name = "chemistry backpack"
-	desc = "A backpack specially designed to repel stains and hazardous liquids."
-	icon_state = "chempack"
-	item_state = "chempack"
-
-/obj/item/storage/backpack/genetics
-	name = "genetics backpack"
-	desc = "A bag designed to be super tough, just in case someone hulks out on you."
-	icon_state = "genepack"
-	item_state = "genepack"
-
-/obj/item/storage/backpack/science
-	name = "science backpack"
-	desc = "A specially designed backpack. It's fire resistant and smells vaguely of plasma."
-	icon_state = "toxpack"
-	item_state = "toxpack"
-
-/obj/item/storage/backpack/virology
-	name = "virology backpack"
-	desc = "A backpack made of hypo-allergenic fibers. It's designed to help prevent the spread of disease. Smells like monkey."
-	icon_state = "viropack"
-	item_state = "viropack"
-
 /*
  * Satchel Types
  */
@@ -205,11 +205,25 @@
 	name = "satchel"
 	desc = "A trendy looking satchel."
 	icon_state = "satchel-norm"
+	item_state = "satchel-norm"
 
 /obj/item/storage/backpack/satchel/leather
 	name = "leather satchel"
 	desc = "It's a very fancy satchel made with fine leather."
-	icon_state = "satchel"
+	icon_state = "satchel-leather"
+	item_state = "satchel-leather"
+
+/obj/item/storage/backpack/satchel/hyd
+	name = "botanist satchel"
+	desc = "A satchel made of all natural fibers."
+	icon_state = "satchel-hyd"
+	item_state = "satchel-hyd"
+
+/obj/item/storage/backpack/satchel/explorer
+	name = "explorer satchel"
+	desc = "A robust satchel for stashing your loot."
+	icon_state = "satchel-explorer"
+	item_state = "satchel-explorer"
 
 /obj/item/storage/backpack/satchel/leather/withwallet/PopulateContents()
 	new /obj/item/storage/wallet/random(src)
@@ -218,7 +232,7 @@
 	name = "industrial satchel"
 	desc = "A tough satchel with extra pockets."
 	icon_state = "satchel-eng"
-	item_state = "engiepack"
+	item_state = "satchel-eng"
 	resistance_flags = FIRE_PROOF
 	rad_flags = RAD_PROTECT_CONTENTS | RAD_NO_CONTAMINATE
 
@@ -226,19 +240,19 @@
 	name = "medical satchel"
 	desc = "A sterile satchel used in medical departments."
 	icon_state = "satchel-med"
-	item_state = "medicalpack"
-
-/obj/item/storage/backpack/satchel/vir
-	name = "virologist satchel"
-	desc = "A sterile satchel with virologist colours."
-	icon_state = "satchel-vir"
-	item_state = "satchel-vir"
+	item_state = "satchel-med"
 
 /obj/item/storage/backpack/satchel/chem
 	name = "chemist satchel"
 	desc = "A sterile satchel with chemist colours."
 	icon_state = "satchel-chem"
 	item_state = "satchel-chem"
+
+/obj/item/storage/backpack/satchel/vir
+	name = "virologist satchel"
+	desc = "A sterile satchel with virologist colours."
+	icon_state = "satchel-vir"
+	item_state = "satchel-vir"
 
 /obj/item/storage/backpack/satchel/gen
 	name = "geneticist satchel"
@@ -249,26 +263,22 @@
 /obj/item/storage/backpack/satchel/tox
 	name = "scientist satchel"
 	desc = "Useful for holding research materials."
-	icon_state = "satchel-tox"
-	item_state = "satchel-tox"
-
-/obj/item/storage/backpack/satchel/hyd
-	name = "botanist satchel"
-	desc = "A satchel made of all natural fibers."
-	icon_state = "satchel-hyd"
-	item_state = "satchel-hyd"
+	icon_state = "satchel-sci"
+	item_state = "satchel-sci"
 
 /obj/item/storage/backpack/satchel/sec
 	name = "security satchel"
 	desc = "A robust satchel for security related needs."
 	icon_state = "satchel-sec"
-	item_state = "securitypack"
+	item_state = "satchel-sec"
 
-/obj/item/storage/backpack/satchel/explorer
-	name = "explorer satchel"
-	desc = "A robust satchel for stashing your loot."
-	icon_state = "satchel-explorer"
-	item_state = "securitypack"
+/obj/item/storage/backpack/satchel/cap
+	name = "captain's satchel"
+	desc = "An exclusive satchel for Nanotrasen officers."
+	icon_state = "satchel-cap"
+	item_state = "satchel-cap"
+	resistance_flags = FIRE_PROOF
+	rad_flags = RAD_PROTECT_CONTENTS | RAD_NO_CONTAMINATE
 
 /obj/item/storage/backpack/satchel/bone
 	name = "bone satchel"
@@ -282,14 +292,6 @@
 	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
 	STR.max_combined_w_class = 20
 	STR.max_items = 15
-
-/obj/item/storage/backpack/satchel/cap
-	name = "captain's satchel"
-	desc = "An exclusive satchel for Nanotrasen officers."
-	icon_state = "satchel-cap"
-	item_state = "captainpack"
-	resistance_flags = FIRE_PROOF
-	rad_flags = RAD_PROTECT_CONTENTS | RAD_NO_CONTAMINATE
 
 /obj/item/storage/backpack/satchel/flat
 	name = "smuggler's satchel"
@@ -348,6 +350,10 @@
 			new R(src)
 		revealed = TRUE
 
+/*
+ * Duffel Types
+ */
+
 /obj/item/storage/backpack/duffelbag
 	name = "duffel bag"
 	desc = "A large duffel bag for holding extra things."
@@ -360,11 +366,23 @@
 	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
 	STR.max_volume = STORAGE_VOLUME_DUFFLEBAG
 
-/obj/item/storage/backpack/duffelbag/captain
-	name = "captain's duffel bag"
-	desc = "A large duffel bag for holding extra captainly goods."
-	icon_state = "duffel-captain"
-	item_state = "duffel-captain"
+/obj/item/storage/backpack/duffelbag/clown
+	name = "clown's duffel bag"
+	desc = "A large duffel bag for holding lots of funny gags!"
+	icon_state = "duffel-clown"
+	item_state = "duffel-clown"
+
+/obj/item/storage/backpack/duffelbag/clown/cream_pie/PopulateContents()
+	for(var/i in 1 to 10)
+		new /obj/item/reagent_containers/food/snacks/pie/cream(src)
+
+/obj/item/storage/backpack/duffelbag/engineering
+	name = "industrial duffel bag"
+	desc = "A large duffel bag for holding extra tools and supplies."
+	icon_state = "duffel-eng"
+	item_state = "duffel-eng"
+	resistance_flags = FIRE_PROOF
+	rad_flags = RAD_PROTECT_CONTENTS | RAD_NO_CONTAMINATE
 
 /obj/item/storage/backpack/duffelbag/med
 	name = "medical duffel bag"
@@ -411,13 +429,11 @@
 	new /obj/item/clothing/mask/surgical(src)
 	new /obj/item/reagent_containers/medspray/sterilizine(src)
 
-/obj/item/storage/backpack/duffelbag/engineering
-	name = "industrial duffel bag"
-	desc = "A large duffel bag for holding extra tools and supplies."
-	icon_state = "duffel-eng"
-	item_state = "duffel-eng"
-	resistance_flags = FIRE_PROOF
-	rad_flags = RAD_PROTECT_CONTENTS | RAD_NO_CONTAMINATE
+/obj/item/storage/backpack/duffelbag/captain
+	name = "captain's duffel bag"
+	desc = "A large duffel bag for holding extra captainly goods."
+	icon_state = "duffel-captain"
+	item_state = "duffel-captain"
 
 /obj/item/storage/backpack/duffelbag/durathread
 	name = "durathread duffel bag"
@@ -445,21 +461,12 @@
 	new /obj/item/multitool(src)
 	new /obj/item/pipe_dispenser(src)
 
-/obj/item/storage/backpack/duffelbag/clown
-	name = "clown's duffel bag"
-	desc = "A large duffel bag for holding lots of funny gags!"
-	icon_state = "duffel-clown"
-	item_state = "duffel-clown"
-
-/obj/item/storage/backpack/duffelbag/clown/cream_pie/PopulateContents()
-	for(var/i in 1 to 10)
-		new /obj/item/reagent_containers/food/snacks/pie/cream(src)
 
 /obj/item/storage/backpack/duffelbag/syndie
 	name = "suspicious looking duffel bag"
 	desc = "A large duffel bag for holding extra tactical supplies."
 	icon_state = "duffel-syndie"
-	item_state = "duffel-syndieammo"
+	item_state = "duffel-syndie"
 	slowdown = 0
 	rad_flags = RAD_PROTECT_CONTENTS | RAD_NO_CONTAMINATE
 
@@ -471,7 +478,7 @@
 /obj/item/storage/backpack/duffelbag/syndie/hitman
 	desc = "A large duffel bag for holding extra things. There is a Nanotrasen logo on the back."
 	icon_state = "duffel-syndieammo"
-	item_state = "duffel-syndieammo"
+	item_state = "duffel-syndie"
 
 /obj/item/storage/backpack/duffelbag/syndie/hitman/PopulateContents()
 	new /obj/item/clothing/under/suit/black(src)
@@ -486,13 +493,13 @@
 	name = "medical duffel bag"
 	desc = "A large duffel bag for holding extra tactical medical supplies."
 	icon_state = "duffel-syndiemed"
-	item_state = "duffel-syndiemed"
+	item_state = "duffel-syndie"
 
 /obj/item/storage/backpack/duffelbag/syndie/surgery
 	name = "surgery duffel bag"
 	desc = "A suspicious looking duffel bag for holding surgery tools."
 	icon_state = "duffel-syndiemed"
-	item_state = "duffel-syndiemed"
+	item_state = "duffel-syndie"
 
 /obj/item/storage/backpack/duffelbag/syndie/surgery/PopulateContents()
 	new /obj/item/scalpel(src)
@@ -531,7 +538,7 @@
 	name = "ammunition duffel bag"
 	desc = "A large duffel bag for holding extra weapons ammunition and supplies."
 	icon_state = "duffel-syndieammo"
-	item_state = "duffel-syndieammo"
+	item_state = "duffel-syndie"
 
 /obj/item/storage/backpack/duffelbag/syndie/ammo/shotgun
 	desc = "A large duffel bag, packed to the brim with Bulldog shotgun drum magazines."
@@ -670,4 +677,4 @@
 	name = "snail shell"
 	desc = "Worn by snails as armor and storage compartment."
 	icon_state = "snailshell"
-	item_state = "snailshell"
+	item_state = "giftbag"

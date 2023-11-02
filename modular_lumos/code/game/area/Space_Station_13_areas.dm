@@ -85,3 +85,52 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
   requires_power = FALSE
   has_gravity = STANDARD_GRAVITY
   hidden = TRUE
+
+//Snaxi specific areas
+/area/command/bridge/lower
+	name = "Lower Bridge Deck"
+	icon_state = "bridgelower"
+
+/area/command/bridge/upper
+	name = "Upper Bridge Deck"
+	icon_state = "bridgeupper"
+
+/area/commons/fitness/pool/oobcold //area for a hidden unreachable controller
+	name = "Pool Area"
+	icon_state = "pool"
+
+/area/command/garage
+	name = "Command Garage"
+	icon_state = "blue"
+	// ambience_index = AMBIENCE_ENGI
+	ambientsounds = ENGINEERING
+
+/area/security/garage
+	name = "Security Garage"
+	icon_state = "red"
+	// ambience_index = AMBIENCE_ENGI
+	ambientsounds = ENGINEERING
+
+/area/commons/dorms/lower
+	name = "Lower Dorms"
+	icon_state = "dorms"
+
+/area/service/basement
+	name = "Service Basement"
+	icon_state = "maint_bar"
+		// ambience_index = AMBIENCE_MAINT
+	ambientsounds = MAINTENANCE
+	area_flags = BLOBS_ALLOWED | CULT_PERMITTED
+	sound_environment = SOUND_AREA_TUNNEL_ENCLOSED
+
+/area/science/lowmaint
+	name = "Lower Science Maintenance"
+	icon_state = "purple"
+		// ambience_index = AMBIENCE_MAINT
+	ambientsounds = MAINTENANCE
+	area_flags = BLOBS_ALLOWED | CULT_PERMITTED
+	sound_environment = SOUND_AREA_TUNNEL_ENCLOSED
+
+/area/science/xenoarch //general placeholder xenoarch area
+	name = "Xenoarchaeology"
+	icon_state = "purple"
